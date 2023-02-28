@@ -29,9 +29,11 @@
          </person>
          <person xml:id="pers002">
             <persName>Telemachus</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers003">
             <persName>Odysseus</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers004">
             <persName>Muse</persName>
@@ -44,6 +46,7 @@
          </person>
          <person xml:id="pers007">
             <persName>Penelope</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers008">
             <persName>Calypso</persName>
@@ -56,15 +59,19 @@
          </person>
          <person xml:id="pers011">
             <persName>Aegisthus</persName>
+            <birth><placeName>Mycenae</placeName></birth>
          </person>
          <person xml:id="pers012">
             <persName>Agamemnon</persName>
+            <birth><placeName>Mycenae</placeName></birth>
          </person>
          <person xml:id="pers013">
             <persName>Orestes</persName>
+            <birth><placeName>Mycenae</placeName></birth>
          </person>
          <person xml:id="pers014">
             <persName>Clytemnestra</persName>
+            <birth><placeName>Sparta</placeName></birth>
          </person>
          <person xml:id="pers015">
             <persName>Hermes</persName>
@@ -83,18 +90,22 @@
          </person>
          <person xml:id="pers020">
             <persName>Phorcys</persName>
+            <birth><placeName>Taphos</placeName></birth>
          </person>
          <person xml:id="pers021">
             <persName>Mentes</persName>
+            <birth><placeName>Taphos</placeName></birth>
          </person>
          <person xml:id="pers022">
             <persName>Phemius</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers023">
             <persName>Anchialus</persName>
          </person>
          <person xml:id="pers024">
             <persName>Laertes</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers025">
             <persName>Ilus</persName>
@@ -104,36 +115,47 @@
          </person>
          <person xml:id="pers027">
             <persName>Icarius</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers028">
             <persName>Nestor</persName>
+            <birth><placeName>Pylos</placeName></birth>
          </person>
          <person xml:id="pers029">
             <persName>Menelaus</persName>
+            <birth><placeName>Sparta</placeName></birth>
          </person>
          <person xml:id="pers030">
             <persName>Euphithes</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers031">
             <persName>Antinous</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers032">
             <persName>Eurymachus</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers033">
             <persName>Polybus</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers034">
             <persName>Eurycleia</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers035">
             <persName>Ops</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers036">
             <persName>Pisenor</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
          <person xml:id="pers037">
             <persName>Laertes' wife</persName>
+            <birth><placeName>Ithaca</placeName></birth>
          </person>
       </listPerson>
       <listPlace>

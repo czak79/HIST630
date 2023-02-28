@@ -17,6 +17,8 @@ declare context item := document {
 /child::book/child:: publisher/child::city
 /child::book/child::date/@year/fn:string(.)
 
-/book/fn:concat(/book/author, /book/author, /book/publisher, /date/@year/fn:string(.))
+fn:concat(/book/author, /book/title, /book/publisher, /date/@year/fn:string(.))
+
+fn:concat(/book/author, ",", /book/title, ".", /book/publisher/city, ":", /book/publisher/press ",", /book/date/@year/fn:string(.))
 
 

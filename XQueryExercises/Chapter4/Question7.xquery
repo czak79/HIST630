@@ -56,15 +56,14 @@ declare context item := document {
 </books>
 };
 
+/books/book/title[fn:contains(., "Women")]
+/books/book[fn:contains(./title, "Women")]
 
-/books/book/title/fn:contains(., "Women")
-
-/books/[date/@year/xs:integer(.) gt 2019]
+/books/[./date/@year/xs:integer(.) gt 2019]
 
 /books/book[fn:position() = (2)]
+/books/book[2]
 
 /books/book[fn:position() = (2 to 4)]
 
 /books/book[fn:position() = (1, 5)]
-
-
