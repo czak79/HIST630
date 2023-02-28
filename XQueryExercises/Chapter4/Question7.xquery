@@ -67,3 +67,5 @@ declare context item := document {
 /books/book[fn:position() = (2 to 4)]
 
 /books/book[fn:position() = (1, 5)]
+
+/books/book[publisher/press[fn:contains(.,"Oxford University Press)]]/title
