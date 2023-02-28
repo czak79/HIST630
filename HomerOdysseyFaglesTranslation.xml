@@ -15,7 +15,7 @@
          </titleStmt>
          <publicationStmt>
             <publisher>HIST630 Digital Methods for Historical Research course</publisher>
-            <date when="2023-02-21">21 February 2023</date>
+            <date when="2023-02-21">21 February 2pers023</date>
             <idno type="filename">HomerOdysseyFaglesTranslation.xml</idno>
             <availability status="free">
                <p>This text is freely available provided the text is distributed with the header information provided</p>
@@ -57,165 +57,165 @@
      </front>
       <body>
          <div>
-            <head>Book I <persName type="deity" ref="#001">Athena</persName> Inspires the <rs ref="#002">Prince</rs></head>
-<l>Sing to me of the <rs ref="#003">man</rs>, <persName type="deity" ref="#004">Muse</persName>, the <rs ref="#003">man</rs> of twists and turns ...</l> 
-<l>driven time and again off course, once <rs ref="#003">he</rs> had plundered</l> 
-<l>the hallowed heights of <placeName ref="#AAA">Troy</placeName>.</l>
-<l>Many cities of men <rs ref="#003">he</rs> saw and learned their minds,</l>
-<l>many pains <rs ref="#003">he</rs> suffered, heartsick on the open sea,</l>
-<l>fighting to save <rs ref="#003">his</rs> life and bring <rs ref="#003">his</rs> comrades home.</l>
-<l>But <rs ref="#003">he</rs> could not save them from disaster, hard as <rs ref="#003">he</rs> strove—</l> 
+            <head>Book I <persName type="deity" ref="#pers001">Athena</persName> Inspires the <rs ref="#pers002">Prince</rs></head>
+<l>Sing to me of the <rs ref="#pers003">man</rs>, <persName type="deity" ref="#pers004">Muse</persName>, the <rs ref="#pers003">man</rs> of twists and turns ...</l> 
+<l>driven time and again off course, once <rs ref="#pers003">he</rs> had plundered</l> 
+<l>the hallowed heights of <placeName ref="#place001">Troy</placeName>.</l>
+<l>Many cities of men <rs ref="#pers003">he</rs> saw and learned their minds,</l>
+<l>many pains <rs ref="#pers003">he</rs> suffered, heartsick on the open sea,</l>
+<l>fighting to save <rs ref="#pers003">his</rs> life and bring <rs ref="#pers003">his</rs> comrades home.</l>
+<l>But <rs ref="#pers003">he</rs> could not save them from disaster, hard as <rs ref="#pers003">he</rs> strove—</l> 
 <l>the recklessness of their own ways destroyed them all,</l>
-<l>the blind fools, they devoured the cattle of the <rs type="deity" ref="#005">Sun</rs></l>
-<l>and the <rs type="deity" ref="#005">Sungod</rs> blotted out the day of their return.</l>
-<l>Launch out on <rs ref="#003">his</rs> story, <persName type="deity" ref="#004">Muse</persName>, daughter of <persName type="deity" ref="#006">Zeus</persName>,</l>
-<l>start from where <rs ref="#004">you</rs> will—sing for our time too.</l>
+<l>the blind fools, they devoured the cattle of the <rs type="deity" ref="#pers005">Sun</rs></l>
+<l>and the <rs type="deity" ref="#pers005">Sungod</rs> blotted out the day of their return.</l>
+<l>Launch out on <rs ref="#pers003">his</rs> story, <persName type="deity" ref="#pers004">Muse</persName>, daughter of <persName type="deity" ref="#pers006">Zeus</persName>,</l>
+<l>start from where <rs ref="#pers004">you</rs> will—sing for our time too.</l>
 <l>By now, all the survivors, all who avoided headlong death</l>
 <l>were safe at home, escaped the wars and waves.</l>    
-<l>But one <rs ref="#003">man</rs> alone ...</l>
-<l><rs ref="#003">his</rs> heart set on <rs ref="#003">his</rs> <rs ref="#007">wife</rs> and <rs ref="#003">his</rs> return— <persName type="deity" ref="#008">Calypso</persName>,</l>
+<l>But one <rs ref="#pers003">man</rs> alone ...</l>
+<l><rs ref="#pers003">his</rs> heart set on <rs ref="#pers003">his</rs> <rs ref="#pers007">wife</rs> and <rs ref="#pers003">his</rs> return— <persName type="deity" ref="#pers008">Calypso</persName>,</l>
 <l>the bewitching nymph, the lustrous goddess, held him back,</l> 
 <l>deep in her arching caverns, craving him for a husband.</l>
 <l>But then, when the wheeling seasons brought the year around,</l> 
 <l>that year spun out by the gods when he should reach his home,</l>
-<l><placeName ref="BBB">Ithaca</placeName>—though not even there would he be free of trials,</l>
+<l><placeName ref="place002">Ithaca</placeName>—though not even there would he be free of trials,</l>
 <l>even among his loved ones—then every god took pity,</l>
-<l>all except <persName type="deity" ref="#009">Poseidon</persName>. He raged on, seething against</l>
-<l>the great <persName ref="003">Odysseus</persName> till he reached his <rs ref="BBB">native land</rs>.</l>
-<l>But now Poseidon had gone to visit the <orgName>Ethiopians</orgName> worlds away,</l>
-<l><orgName>Ethiopians</orgName> off at the farthest limits of mankind,</l>
-<l>a people split in two, one part where the <rs ref="#005">Sungod</rs> sets</l>
-<l>and part where the <rs ref="#005">Sungod</rs> rises. There <persName type="deity" ref="#009">Poseidon</persName> went</l>
+<l>all except <persName type="deity" ref="#pers009">Poseidon</persName>. He raged on, seething against</l>
+<l>the great <persName ref="pers003">Odysseus</persName> till he reached his <rs ref="place002">native land</rs>.</l>
+<l>But now Poseidon had gone to visit the <orgName ref="#org003">Ethiopians</orgName> worlds away,</l>
+<l><orgName ref="#org003">Ethiopians</orgName> off at the farthest limits of mankind,</l>
+<l>a people split in two, one part where the <rs ref="#pers005">Sungod</rs> sets</l>
+<l>and part where the <rs ref="#pers005">Sungod</rs> rises. There <persName type="deity" ref="#pers009">Poseidon</persName> went</l>
 <l>to receive an offering, bulls and rams by the hundred—</l> 
-<l>far away at the feast the <rs ref="#009">Sea-lord</rs> sat and took his pleasure.</l>
-<l>But the other gods, at home in <rs>Olympian<persName type="deity" ref="#010">Zeus’s</persName></rs> halls,</l>
+<l>far away at the feast the <rs ref="#pers009">Sea-lord</rs> sat and took his pleasure.</l>
+<l>But the other gods, at home in <rs>Olympian<persName type="deity" ref="#pers010">Zeus’s</persName></rs> halls,</l>
 <l>met for full assembly there, and among them now</l>
-<l><rs ref="#010">the father of men and gods</rs> was first to speak,</l>
-<l>sorely troubled, remembering handsome <persName ref="#011">Aegisthus</persName>,</l>
-<l>the man <rs ref="#013"><persName ref="#012">Agamemnon</persName>’s son</rs>, renowned <persName ref="#013">Orestes</persName>, killed.</l>
-<l>Recalling <persName ref="#011">Aegisthus</persName>, <persName type="deity" ref="#010">Zeus</persName> harangued the immortal powers:</l>
+<l><rs ref="#pers010">the father of men and gods</rs> was first to speak,</l>
+<l>sorely troubled, remembering handsome <persName ref="#pers011">Aegisthus</persName>,</l>
+<l>the man <rs ref="#pers013"><persName ref="#pers012">Agamemnon</persName>’s son</rs>, renowned <persName ref="#pers013">Orestes</persName>, killed.</l>
+<l>Recalling <persName ref="#pers011">Aegisthus</persName>, <persName type="deity" ref="#pers010">Zeus</persName> harangued the immortal powers:</l>
 <l>“Ah how shameless—the way these mortals blame the gods.</l>
 <l>From us alone, they say, come all their miseries, yes,</l>
 <l>but they themselves, with their own reckless ways,</l>
 <l>compound their pains beyond their proper share.</l>
-<l>Look at <persName ref="#011">Aegisthus</persName> now ...</l>
-<l>above and beyond his share he stole <rs ref="#014"><rs ref="#012">Atrides</rs>’ wife</rs>,</l>
-<l>he murdered <rs ref="#012">the warlord</rs> coming home from <placeName ref="AAA">Troy</placeName></l><l>though he knew it meant his own total ruin.</l>
-<l>Far in advance we told <rs ref="#011">him</rs> so ourselves,</l>
-<l>dispatching the guide, the <rs ref="#015">giant-killer</rs> <persName type="deity" ref="#015">Hermes</persName>.</l>
-<l>‘Don’t murder <rs ref="#012">the man</rs>,’ <rs ref="#015">he</rs> said, ‘don’t court <rs ref="#014">his wife</rs>.</l>
-<l>Beware, revenge will come from <persName ref="#013">Orestes</persName>, <rs ref="#013"><persName ref="#012">Agamemnon</persName>’s son</rs>,</l>
-<l>that day he comes of age and longs for <rs ref="CCC">his native land</rs>.’</l>
-<l>So <persName type="deity" ref="#015">Hermes</persName> warned, with all the good will in the world,</l>
-<l>but would <persName ref="#011">Aegisthus</persName>’ hardened heart give way? </l>
+<l>Look at <persName ref="#pers011">Aegisthus</persName> now ...</l>
+<l>above and beyond his share he stole <rs ref="#pers014"><rs ref="#pers012">Atrides</rs>’ wife</rs>,</l>
+<l>he murdered <rs ref="#pers012">the warlord</rs> coming home from <placeName ref="place001">Troy</placeName></l><l>though he knew it meant his own total ruin.</l>
+<l>Far in advance we told <rs ref="#pers011">him</rs> so ourselves,</l>
+<l>dispatching the guide, the <rs ref="#pers015">giant-killer</rs> <persName type="deity" ref="#pers015">Hermes</persName>.</l>
+<l>‘Don’t murder <rs ref="#pers012">the man</rs>,’ <rs ref="#pers015">he</rs> said, ‘don’t court <rs ref="#pers014">his wife</rs>.</l>
+<l>Beware, revenge will come from <persName ref="#pers013">Orestes</persName>, <rs ref="#pers013"><persName ref="#pers012">Agamemnon</persName>’s son</rs>,</l>
+<l>that day he comes of age and longs for <rs ref="place003">his native land</rs>.’</l>
+<l>So <persName type="deity" ref="#pers015">Hermes</persName> warned, with all the good will in the world,</l>
+<l>but would <persName ref="#pers011">Aegisthus</persName>’ hardened heart give way? </l>
 <l>Now he pays the price—all at a single stroke.”</l>
-<l>And <rs ref="#001">sparkling-eyed</rs> <persName type="deity" ref="#001">Athena</persName> drove the matter home:</l>
-<l>“<rs ref="#010">Father</rs>, son of <persName type="deity" ref="#016">Cronus</persName>, our high and mighty king,</l>
-<l>surely <rs ref="#011">he</rs> goes down to a death he earned in full!</l>
+<l>And <rs ref="#pers001">sparkling-eyed</rs> <persName type="deity" ref="#pers001">Athena</persName> drove the matter home:</l>
+<l>“<rs ref="#pers010">Father</rs>, son of <persName type="deity" ref="#pers016">Cronus</persName>, our high and mighty king,</l>
+<l>surely <rs ref="#pers011">he</rs> goes down to a death he earned in full!</l>
 <l>Let them all die so, all who do such things.</l>
-<l>But my heart breaks for <persName ref="#003">Odysseus</persName>,</l>
-<l>that <rs ref="#003">seasoned veteran cursed by fate</rs> so long—</l>
+<l>But my heart breaks for <persName ref="#pers003">Odysseus</persName>,</l>
+<l>that <rs ref="#pers003">seasoned veteran cursed by fate</rs> so long—</l>
 <l>far from his loved ones still, he suffers torments</l>
-<l>off on a <rs ref="DDD">wave-washed island</rs> rising at the center of the seas.</l>
-<l>A dark wooded island, and there a <rs ref="#008">goddess</rs> makes her home,</l>
-<l>daughter of <persName type="deity" ref="#017">Atlas</persName>, <rs ref="#017">wicked Titan who sounds the deep</rs></l>
-<l>in all its depths, <rs ref="#017">whose shoulders lift on high</rs></l>
-<l><rs ref="#017">the colossal pillars thrusting earth and sky apart</rs>.</l>
-<l><rs ref="#008"><persName type="deity" ref="#017">Atlas</persName>’ daughter</rs> it is who holds <persName ref="#003">Odysseus</persName> captive,</l>
-<l><rs ref="#003">luckless man</rs>—despite his tears, forever trying</l>
+<l>off on a <rs ref="place004">wave-washed island</rs> rising at the center of the seas.</l>
+<l>A dark wooded island, and there a <rs ref="#pers008">goddess</rs> makes her home,</l>
+<l>daughter of <persName type="deity" ref="#pers017">Atlas</persName>, <rs ref="#pers017">wicked Titan who sounds the deep</rs></l>
+<l>in all its depths, <rs ref="#pers017">whose shoulders lift on high</rs></l>
+<l><rs ref="#pers017">the colossal pillars thrusting earth and sky apart</rs>.</l>
+<l><rs ref="#pers008"><persName type="deity" ref="#pers017">Atlas</persName>’ daughter</rs> it is who holds <persName ref="#pers003">Odysseus</persName> captive,</l>
+<l><rs ref="#pers003">luckless man</rs>—despite his tears, forever trying</l>
 <l>to spellbind his heart with suave, seductive words</l>
-<l>and wipe all thought of <placeName ref="BBB">Ithaca</placeName> from his mind.</l>
+<l>and wipe all thought of <placeName ref="place002">Ithaca</placeName> from his mind.</l>
 <l>But he, straining for no more than a glimpse</l>
 <l>of hearth-smoke drifting up from his own land,</l>
-<l><persName ref="#003">Odysseus</persName> longs to die ...</l>
-<l><rs ref="#010">Olympian <persName type="deity" ref="#010">Zeus</persName></rs>, have you no care for him in your lofty heart?</l>
+<l><persName ref="#pers003">Odysseus</persName> longs to die ...</l>
+<l><rs ref="#pers010">Olympian <persName type="deity" ref="#pers010">Zeus</persName></rs>, have you no care for him in your lofty heart?</l>
 <l>Did he never win your favor with sacrifices</l>
-<l>burned beside the ships on the broad plain of <placeName ref="AAA">Troy</placeName>?</l>
-<l>Why, <persName type="deity" ref="#010">Zeus</persName>, why so dead set against <persName ref="#003">Odysseus</persName>?”</l>
-<l>“<rs ref="#001">My child</rs>,” <persName type="deity" ref="#010">Zeus</persName> <rs ref="#010">who marshals the thunderheads</rs> replied,</l>
+<l>burned beside the ships on the broad plain of <placeName ref="place001">Troy</placeName>?</l>
+<l>Why, <persName type="deity" ref="#pers010">Zeus</persName>, why so dead set against <persName ref="#pers003">Odysseus</persName>?”</l>
+<l>“<rs ref="#pers001">My child</rs>,” <persName type="deity" ref="#pers010">Zeus</persName> <rs ref="#pers010">who marshals the thunderheads</rs> replied,</l>
 <l>“what nonsense you let slip through your teeth. Now,</l>
-<l>how on earth could I forget <persName ref="#003">Odysseus</persName>? Great <persName ref="#003">Odysseus</persName></l>
+<l>how on earth could I forget <persName ref="#pers003">Odysseus</persName>? Great <persName ref="#pers003">Odysseus</persName></l>
 <l>who excels all men in wisdom, excels in offerings too</l>
 <l>he gives the immortal gods who rule the vaulting skies?</l>
-<l>No, it’s the <rs ref="#009">Earth-Shaker</rs>, <persName type="deity" ref="#009">Poseidon</persName>, unappeased,</l>
-<l>forever fuming against him for the <rs ref="#018">Cyclops</rs></l>
-<l>whose giant eye he blinded: <rs ref="#018">godlike <persName type="deity" ref="#018">Polyphemus</persName></rs>,</l>
-<l>towering over all the <orgName>Cyclops</orgName>’ clans in power.</l>
-<l>The nymph <persName type="deity" ref="#019">Thoosa</persName> bore him, daughter of <persName type="deity" ref="#020">Phorcys</persName>,</l>
-<l><rs ref="#020">lord of the barren salt sea</rs>—<rs ref="#019">she</rs> met <persName type="deity" ref="#009">Poseidon</persName></l>
+<l>No, it’s the <rs ref="#pers009">Earth-Shaker</rs>, <persName type="deity" ref="#pers009">Poseidon</persName>, unappeased,</l>
+<l>forever fuming against him for the <rs ref="#pers018">Cyclops</rs></l>
+<l>whose giant eye he blinded: <rs ref="#pers018">godlike <persName type="deity" ref="#pers018">Polyphemus</persName></rs>,</l>
+<l>towering over all the <orgName ref="#org004">Cyclops</orgName>’ clans in power.</l>
+<l>The nymph <persName type="deity" ref="#pers019">Thoosa</persName> bore him, daughter of <persName type="deity" ref="#pers020">Phorcys</persName>,</l>
+<l><rs ref="#pers020">lord of the barren salt sea</rs>—<rs ref="#pers019">she</rs> met <persName type="deity" ref="#pers009">Poseidon</persName></l>
 <l>once in his vaulted caves and they made love.</l>
-<l>And now for <rs ref="#009">his <rs ref="#018">blinded son</rs> the earthquake god</rs>—</l>
-<l>though <rs ref="#009">he</rs> won’t quite kill <persName ref="#003">Odysseus</persName>—</l>
-<l>drives him far off course from <rs ref="BBB">native land</rs>.</l>
+<l>And now for <rs ref="#pers009">his <rs ref="#pers018">blinded son</rs> the earthquake god</rs>—</l>
+<l>though <rs ref="#pers009">he</rs> won’t quite kill <persName ref="#pers003">Odysseus</persName>—</l>
+<l>drives him far off course from <rs ref="place002">native land</rs>.</l>
 <l>But come, all of us here put heads together now,</l>
-<l>work out his journey home so <persName ref="#003">Odysseus</persName> can return.</l>
-<l><rs ref="#009">Lord <persName type="deity" ref="#009">Poseidon</persName></rs>, I trust, will let his anger go.</l>
+<l>work out his journey home so <persName ref="#pers003">Odysseus</persName> can return.</l>
+<l><rs ref="#pers009">Lord <persName type="deity" ref="#pers009">Poseidon</persName></rs>, I trust, will let his anger go.</l>
 <l>How can he stand his ground against the will</l>
 <l>of all the gods at once—one god alone?”</l>
-<l><persName type="deity" ref="#001">Athena</persName>, her eyes flashing bright, exulted,</l>
-<l>“<rs ref="#010">Father</rs>, <rs ref="#010">son of <persName type="deity" ref="#016">Cronus</persName></rs>, our high and mighty king!</l>
+<l><persName type="deity" ref="#pers001">Athena</persName>, her eyes flashing bright, exulted,</l>
+<l>“<rs ref="#pers010">Father</rs>, <rs ref="#pers010">son of <persName type="deity" ref="#pers016">Cronus</persName></rs>, our high and mighty king!</l>
 <l>If now it really pleases the blissful gods</l>
-<l>that <rs ref="#003">wise <persName ref="#003">Odysseus</persName></rs> shall return—home at last—</l>
-<l>let us dispatch the guide and <rs ref="#015">giant-killer</rs> <persName type="deity" ref="#015">Hermes</persName></l>
-<l>down to <placeName ref="DDD">Ogygia Island</placeName>, down to announce at once</l>
-<l>to <rs ref="#008">the nymph with lovely braids</rs> our fixed decree:</l> 
-<l><persName ref="#003">Odysseus</persName> journeys home—the exile must return!</l>
-<l>While I myself go down to <placeName ref="BBB">Ithaca</placeName>, rouse his <rs ref="#002">son</rs></l>
+<l>that <rs ref="#pers003">wise <persName ref="#pers003">Odysseus</persName></rs> shall return—home at last—</l>
+<l>let us dispatch the guide and <rs ref="#pers015">giant-killer</rs> <persName type="deity" ref="#pers015">Hermes</persName></l>
+<l>down to <placeName ref="place004">Ogygia Island</placeName>, down to announce at once</l>
+<l>to <rs ref="#pers008">the nymph with lovely braids</rs> our fixed decree:</l> 
+<l><persName ref="#pers003">Odysseus</persName> journeys home—the exile must return!</l>
+<l>While I myself go down to <placeName ref="place002">Ithaca</placeName>, rouse his <rs ref="#pers002">son</rs></l>
 <l>to a braver pitch, inspire his heart with courage</l>
-<l>to summon the <rs>flowing-haired <orgName>Achaeans</orgName></rs> to full assembly,</l>
-<l>speak his mind to all those <orgName>suitors</orgName>, slaughtering on and on</l>
+<l>to summon the <rs>flowing-haired <orgName ref="#org005">Achaeans</orgName></rs> to full assembly,</l>
+<l>speak his mind to all those <orgName ref="#org002">suitors</orgName>, slaughtering on and on</l>
 <l>his droves of sheep and shambling longhorn cattle.</l>
-<l>Next I will send him off to <placeName ref="EEE">Sparta</placeName> and sandy <placeName ref="FFF">Pylos</placeName>,</l>
-<l>there to learn of his <rs ref="#003">dear father’s</rs> journey home.</l>
+<l>Next I will send him off to <placeName ref="place005">Sparta</placeName> and sandy <placeName ref="place006">Pylos</placeName>,</l>
+<l>there to learn of his <rs ref="#pers003">dear father’s</rs> journey home.</l>
 <l>Perhaps he will hear some news and make his name</l>
 <l>throughout the mortal world.”</l>
-<l>So <persName type="deity" ref="#001">Athena</persName> vowed and under her feet she fastened the supple sandals,</l>
+<l>So <persName type="deity" ref="#pers001">Athena</persName> vowed and under her feet she fastened the supple sandals,</l>
 <l>ever-glowing gold, that wing her over the waves</l>
 <l>and boundless earth with the rush of gusting winds.</l>
 <l>She seized the rugged spear tipped with a bronze point—</l>
 <l>weighted, heavy, the massive shaft she wields to break the lines</l>
-<l>of heroes <rs ref="#001">the mighty Father’s daughter</rs> storms against.</l>
-<l>And down she swept from <placeName ref="GGG">Olympus</placeName>’ craggy peaks</l>
-<l>and lit on <placeName ref="BBB">Ithaca</placeName>, standing tall at <persName ref="#003">Odysseus</persName>’ gates,</l>
+<l>of heroes <rs ref="#pers001">the mighty Father’s daughter</rs> storms against.</l>
+<l>And down she swept from <placeName ref="place007">Olympus</placeName>’ craggy peaks</l>
+<l>and lit on <placeName ref="place002">Ithaca</placeName>, standing tall at <persName ref="#pers003">Odysseus</persName>’ gates,</l>
 <l>the threshold of his court. Gripping her bronze spear,</l>
 <l>she looked for all the world like a stranger now,</l>
-<l>like <persName ref="#021">Mentes</persName>, <rs ref="#021">lord of the <orgName>Taphians</orgName></rs>.</l>
-<l>There she found the swaggering <orgName>suitors</orgName>, just then </l>
+<l>like <persName ref="#pers021">Mentes</persName>, <rs ref="#pers021">lord of the <orgName ref="#org001">Taphians</orgName></rs>.</l>
+<l>There she found the swaggering <orgName ref="#org002">suitors</orgName>, just then </l>
 <l>amusing themselves with rolling dice before the doors,</l>
 <l>lounging on hides of oxen they had killed themselves. </l>
-<l>While <orgName>heralds</orgName> and brisk <orgName>attendants</orgName> bustled round them,</l>
+<l>While <orgName ref="#org006">heralds</orgName> and brisk <orgName ref="#org007">attendants</orgName> bustled round them,</l>
 <l>some at the mixing-bowls, mulling wine and water,</l>
 <l>others wiping the tables down with sopping sponges,</l>
 <l>setting them out in place, still other servants</l>
 <l>jointed and carved the great sides of meat.</l>
-<l>First by far to see her was <rs ref="#002">Prince <persName ref="#002">Telemachus</persName></rs>,</l>
-<l>sitting among the <orgName>suitors</orgName>, heart obsessed with grief.</l>
-<l>He could almost see his magnificent <rs ref="#003">father</rs>, here ...</l>
+<l>First by far to see her was <rs ref="#pers002">Prince <persName ref="#pers002">Telemachus</persName></rs>,</l>
+<l>sitting among the <orgName ref="#org002">suitors</orgName>, heart obsessed with grief.</l>
+<l>He could almost see his magnificent <rs ref="#pers003">father</rs>, here ...</l>
 <l>in the mind’s eye—if only he might drop from the clouds</l>
-<l>and drive these <orgName>suitors</orgName> all in a rout throughout the halls</l>
+<l>and drive these <orgName ref="#org002">suitors</orgName> all in a rout throughout the halls</l>
 <l>and regain his pride of place and rule his own domains!</l>
-<l>Daydreaming so as he sat among the <orgName>suitors</orgName>,</l>
-<l>he glimpsed <persName type="deity" ref="#001">Athena</persName> now</l>
+<l>Daydreaming so as he sat among the <orgName ref="#org002">suitors</orgName>,</l>
+<l>he glimpsed <persName type="deity" ref="#pers001">Athena</persName> now</l>
 <l>and straight to the porch he went, mortified</l>
 <l>that a guest might still be standing at the doors.</l>
 <l>Pausing beside her there, he clasped her right hand</l>
 <l>and relieving her at once of her long bronze spear,</l>
-<l>met her with winged words: “Greetings, <rs ref="#001">stranger</rs>!</l>
+<l>met her with winged words: “Greetings, <rs ref="#pers001">stranger</rs>!</l>
 <l>Here in our house you’ll find a royal welcome.</l>
 <l>Have supper first, then tell us what you need.”</l>
-<l>He led the way and <persName type="deity" ref="#001">Pallas Athena</persName> followed.</l>
+<l>He led the way and <persName type="deity" ref="#pers001">Pallas Athena</persName> followed.</l>
 <l>Once in the high-roofed hall, he took her lance</l>
 <l>and fixed it firm in a burnished rack against</l>
 <l>a sturdy pillar, there where row on row of spears,</l> 
-<l>embattled <persName ref="#003">Odysseus</persName>’ spears, stood stacked and waiting.</l>
-<l>Then <rs ref="#002">he</rs> escorted her to a high, elaborate chair of honor,</l>
-<l>over it draped a cloth, and here he placed <rs ref="#001">his guest</rs></l>
+<l>embattled <persName ref="#pers003">Odysseus</persName>’ spears, stood stacked and waiting.</l>
+<l>Then <rs ref="#pers002">he</rs> escorted her to a high, elaborate chair of honor,</l>
+<l>over it draped a cloth, and here he placed <rs ref="#pers001">his guest</rs></l>
 <l>with a stool to rest her feet. But for himself</l>
 <l>he drew up a low reclining chair beside her,</l>
-<l>richly painted, clear of the press of <orgName>suitors</orgName>,</l>
+<l>richly painted, clear of the press of <orgName ref="#org002">suitors</orgName>,</l>
 <l>concerned his guest, offended by their uproar,</l>
 <l>might shrink from food in the midst of such a mob.</l>
-<l>He hoped, what’s more, to ask him about <rs ref="#003">his long-lost father</rs>.</l>
+<l>He hoped, what’s more, to ask him about <rs ref="#pers003">his long-lost father</rs>.</l>
 <l>A maid brought water soon in a graceful golden pitcher</l>
 <l>and over a silver basin tipped it out</l>
 <l>so they might rinse their hands,</l>
@@ -225,97 +225,97 @@
 <l>A carver lifted platters of meat toward them,</l>
 <l>meats of every sort, and set beside them golden cups</l>
 <l>and time and again a page came round and poured them wine.</l>
-<l>But now the <orgName>suitors</orgName> trooped in with all their swagger</l>
+<l>But now the <orgName ref="#org002">suitors</orgName> trooped in with all their swagger</l>
 <l>and took their seats on low and high-backed chairs.</l>
-<l><orgName>Heralds</orgName> poured water over their hands for rinsing,</l>
-<l><orgName>serving maids</orgName> brought bread heaped high in trays</l>
-<l>and <orgName>the young men</orgName> brimmed the mixing-bowls with wine.</l>
+<l><orgName ref="#org006">Heralds</orgName> poured water over their hands for rinsing,</l>
+<l><orgName ref="#org008">serving maids</orgName> brought bread heaped high in trays</l>
+<l>and <orgName ref="#org007">the young men</orgName> brimmed the mixing-bowls with wine.</l>
 <l>They reached out for the good things that lay at hand,</l>
 <l>and when they’d put aside desire for food and drink</l>
-<l>the <orgName>suitors</orgName> set their minds on other pleasures,</l>
+<l>the <orgName ref="#org002">suitors</orgName> set their minds on other pleasures,</l>
 <l>song and dancing, all that crowns a feast.</l>
-<l>A herald placed an ornate lyre in <persName ref="#022">Phemius</persName>’ hands,</l>
-<l><rs ref="#022">the bard</rs> who always performed among them there;</l>
+<l>A herald placed an ornate lyre in <persName ref="#pers022">Phemius</persName>’ hands,</l>
+<l><rs ref="#pers022">the bard</rs> who always performed among them there;</l>
 <l><rs>they</rs> forced the man to sing.</l>
 <l>A rippling prelude— and no sooner had he struck up his rousing song</l>
-<l>than <persName ref="#002">Telemachus</persName>, head close to <persName type="deity" ref="#001">Athena</persName>’s sparkling eyes,</l>
+<l>than <persName ref="#pers002">Telemachus</persName>, head close to <persName type="deity" ref="#pers001">Athena</persName>’s sparkling eyes,</l>
 <l>spoke low to his guest so no one else could hear:</l>
-<l>“Dear <rs ref="#001">stranger</rs>, would you be shocked by what I say?</l>
+<l>“Dear <rs ref="#pers001">stranger</rs>, would you be shocked by what I say?</l>
 <l>Look at <rs>them</rs> over there. Not a care in the world,</l>
 <l>just lyres and tunes! Easy for them, all right,</l>
 <l>they feed on another’s goods and go scot-free—</l>
-<l><rs ref="#003">a man whose white bones lie strewn in the rain somewhere</rs>,</l>
+<l><rs ref="#pers003">a man whose white bones lie strewn in the rain somewhere</rs>,</l>
 <l>rotting away on land or rolling down the ocean’s salty swells.</l>
-<l>But that man—if they caught sight of him home in <placeName ref="BBB">Ithaca</placeName>,</l>
+<l>But that man—if they caught sight of him home in <placeName ref="place002">Ithaca</placeName>,</l>
 <l>by god, they’d all pray to be faster on their feet</l>
 <l>than richer in bars of gold and heavy robes.</l>
-<l>But now, no use, <rs ref="#003">he’s</rs> died a wretched death.</l>
+<l>But now, no use, <rs ref="#pers003">he’s</rs> died a wretched death.</l>
 <l>No comfort’s left for us ... not even if</l>
 <l>someone, somewhere, says he’s coming home.</l>
 <l>The day of his return will never dawn.</l>
 <l>Enough. Tell me about yourself now, clearly, point by point.</l>
 <l>Who are you? where are you from? your city? your parents?</l>
 <l>What sort of vessel brought you? Why did the sailors</l>
-<l>land you here in <placeName ref="BBB">Ithaca</placeName>? Who did they say they are?</l>
+<l>land you here in <placeName ref="place002">Ithaca</placeName>? Who did they say they are?</l>
 <l>I hardly think you came this way on foot!</l>
 <l>And tell me this for a fact—I need to know—</l>
-<l>is this your first time here? Or are you a friend of <rs ref="#003">father’s</rs>,</l>
+<l>is this your first time here? Or are you a friend of <rs ref="#pers003">father’s</rs>,</l>
 <l>a guest from the old days? Once, crowds of other men </l>
 <l>would come to our house on visits—visitor that he was, </l>
 <l>when he walked among the living.”</l>
-<l>Her eyes glinting, <persName type="deity" ref="#001">goddess Athena</persName> answered, “My whole story, of course,</l>
-<l>I’ll tell it point by point. Wise old <persName ref="#023">Anchialus</persName></l>
-<l>was my father. My own name is <persName ref="#021">Mentes</persName>,</l>
-<l><rs ref="#021">lord of the <orgName>Taphian</orgName> men who love their oars</rs>.</l>
-<l>And here <rs ref="#001">I’ve</rs> come, just now, with ship and crew,</l>
+<l>Her eyes glinting, <persName type="deity" ref="#pers001">goddess Athena</persName> answered, “My whole story, of course,</l>
+<l>I’ll tell it point by point. Wise old <persName ref="#pers023">Anchialus</persName></l>
+<l>was my father. My own name is <persName ref="#pers021">Mentes</persName>,</l>
+<l><rs ref="#pers021">lord of the <orgName ref="#org001">Taphian</orgName> men who love their oars</rs>.</l>
+<l>And here <rs ref="#pers001">I’ve</rs> come, just now, with ship and crew,</l>
 <l>sailing the wine-dark sea to foreign ports of call,</l>
-<l>to <placeName ref="HHH">Temese</placeName>, out for bronze—our cargo gleaming iron.</l>
+<l>to <placeName ref="place008">Temese</placeName>, out for bronze—our cargo gleaming iron.</l>
 <l>Our ship lies moored off farmlands far from town,</l>
-<l>riding in <placeName ref="III">Rithron Cove</placeName>, beneath <placeName ref="JJJ">Mount Nion</placeName>’s woods.</l>
-<l>As for the ties between <rs ref="#003">your father</rs> and <rs ref="#001">myself</rs>,</l>
+<l>riding in <placeName ref="place009">Rithron Cove</placeName>, beneath <placeName ref="place010">Mount Nion</placeName>’s woods.</l>
+<l>As for the ties between <rs ref="#pers003">your father</rs> and <rs ref="#pers001">myself</rs>,</l>
 <l>we’ve been friends forever, I’m proud to say,</l>
 <l>and he would bear me out</l>
-<l>if you went and questioned <rs ref="#024">old lord</rs> <persName ref="#024">Laertes</persName>.</l>
+<l>if you went and questioned <rs ref="#pers024">old lord</rs> <persName ref="#pers024">Laertes</persName>.</l>
 <l>He, I gather, no longer ventures into town</l>
 <l>but lives a life of hardship, all to himself,</l>
 <l>off on his farmstead with an aged serving-woman</l>
 <l>who tends him well, who gives him food and drink</l>
 <l>when weariness has taken hold of his withered limbs</l> 
 <l>from hauling himself along his vineyard’s steep slopes.</l>
-<l>And now I’ve come—and why? I heard that <rs ref="#003">he</rs> was back ...</l>
+<l>And now I’ve come—and why? I heard that <rs ref="#pers003">he</rs> was back ...</l>
 <l>your father, that is. But no, the gods thwart his passage.</l>
-<l>Yet I tell you great <persName ref="#003">Odysseus</persName> is not dead. He’s still alive,</l>
+<l>Yet I tell you great <persName ref="#pers003">Odysseus</persName> is not dead. He’s still alive,</l>
 <l>somewhere in this wide world, held captive, out at sea </l>
 <l>on a wave-washed island, and hard men, savages,</l>
 <l>somehow hold him back against his will.</l>
 <l>Wait, I’ll make you a prophecy, one the immortal gods</l>
 <l>have planted in my mind—it will come true, I think,</l>
 <l>though I’m hardly a seer or know the flights of birds.</l>
-<l><rs ref="#003">He</rs> won’t be gone long from <rs ref="BBB">the native land he loves</rs>,</l>
+<l><rs ref="#pers003">He</rs> won’t be gone long from <rs ref="place002">the native land he loves</rs>,</l>
 <l>not even if iron shackles bind your father down.</l>
 <l>He’s plotting a way to journey home at last;</l>
 <l>he’s never at a loss.</l>
 <l>But come, please, tell me about yourself now, point by point.</l>
-<l>You’re truly <persName ref="#003">Odysseus</persName>’ son? You’ve sprung up so!</l>
+<l>You’re truly <persName ref="#pers003">Odysseus</persName>’ son? You’ve sprung up so!</l>
 <l>Uncanny resemblance ... the head, and the fine eyes—</l>
 <l>I see him now. How often we used to meet in the old days</l>
-<l>before he embarked for <placeName ref="AAA">Troy</placeName>, where <orgName>other Argive captains</orgName>,</l>
+<l>before he embarked for <placeName ref="place001">Troy</placeName>, where <orgName ref="#org009">other Argive captains</orgName>,</l>
 <l>all the best men, sailed in the long curved ships.</l>
 <l>From then to this very day</l>
-<l>I’ve not set eyes on <persName ref="#003">Odysseus</persName> or he on me.”</l>
-<l>And young <persName ref="#002">Telemachus</persName> cautiously replied,</l>
+<l>I’ve not set eyes on <persName ref="#pers003">Odysseus</persName> or he on me.”</l>
+<l>And young <persName ref="#pers002">Telemachus</persName> cautiously replied,</l>
 <l>“I’ll try, my friend, to give you a frank answer.</l>
-<l><rs ref="#007">Mother</rs> has always told me I’m his son, it’s true,</l>
+<l><rs ref="#pers007">Mother</rs> has always told me I’m his son, it’s true,</l>
 <l>but I am not so certain. Who, on his own,</l>
 <l>has ever really known who gave him life?</l>
 <l>Would to god I’d been the son of a happy man</l>
 <l>whom old age overtook in the midst of his possessions!</l>
 <l>Now, think of the most unlucky mortal ever born—</l>
 <l>since you ask me, yes, they say I am his son.”</l>
-<l>“Still,” <rs ref="#001">the clear-eyed goddess</rs> reassured him,</l>
+<l>“Still,” <rs ref="#pers001">the clear-eyed goddess</rs> reassured him,</l>
 <l>“trust me, the gods have not marked out your house</l>
 <l>for such an unsung future,</l>
-<l>not if <persName ref="#007">Penelope</persName> has borne a son like you.</l>
+<l>not if <persName ref="#pers007">Penelope</persName> has borne a son like you.</l>
 <l>But tell me about all this and spare me nothing.</l>
 <l>What’s this banqueting, this crowd carousing here?</l>
 <l>And what part do you play yourself? Some wedding-feast,</l>
@@ -324,17 +324,17 @@
 <l>gorging in your house. Why, any man of sense</l>
 <l>who chanced among them would be outraged,</l>
 <l>seeing such behavior.”</l>
-<l>Ready <persName ref="#002">Telemachus</persName> took her up at once: “Well, <rs ref="#001">my friend</rs>,</l>
+<l>Ready <persName ref="#pers002">Telemachus</persName> took her up at once: “Well, <rs ref="#pers001">my friend</rs>,</l>
 <l>seeing you want to probe and press the question,</l>
 <l>once this house was rich, no doubt, beyond reproach</l>
-<l>when <rs ref="#001">the man you mentioned</rs> still lived here, at home.</l>
+<l>when <rs ref="#pers001">the man you mentioned</rs> still lived here, at home.</l>
 <l>Now the gods have reversed our fortunes with a vengeance—</l>
 <l>wiped that man from the earth like no one else before.</l>
 <l>I would never have grieved so much about his death</l>
-<l>if he’d gone down with comrades off in <placeName ref="AAA">Troy</placeName></l>
+<l>if he’d gone down with comrades off in <placeName ref="place001">Troy</placeName></l>
 <l>or died in the arms of loved ones,</l>
 <l>once he had wound down the long coil of war.</l>
-<l>Then all united <orgName>Achaea</orgName> would have raised his tomb</l>
+<l>Then all united <placeName ref="#place019">Achaea</placeName> would have raised his tomb</l>
 <l>and he’d have won his son great fame for years to come.</l>
 <l>But now the whirlwinds have ripped him away, no fame for him!</l>
 <l>He’s lost and gone now—out of sight, out of mind—and I ...</l>
@@ -342,73 +342,73 @@
 <l>and grieve for him alone. No longer. Now the gods</l>
 <l>have invented other miseries to plague me.</l>
 <l>Listen. <rs>All the nobles who rule the islands round about</rs>,</l>
-<l><placeName ref="#KKK">Dulichion</placeName>, and <placeName ref="#LLL">Same</placeName>, and wooded <placeName ref="MMM">Zacynthus</placeName> too,</l>
-<l>and all who lord it in rocky <placeName ref="BBB">Ithaca</placeName> as well—</l>
-<l>down to the last man they court <rs ref="#007">my mother</rs>,</l>
-<l>they lay waste my house! And <rs ref="#007">mother</rs> ...</l>
+<l><placeName ref="#place011">Dulichion</placeName>, and <placeName ref="#place012">Same</placeName>, and wooded <placeName ref="place013">Zacynthus</placeName> too,</l>
+<l>and all who lord it in rocky <placeName ref="place002">Ithaca</placeName> as well—</l>
+<l>down to the last man they court <rs ref="#pers007">my mother</rs>,</l>
+<l>they lay waste my house! And <rs ref="#pers007">mother</rs> ...</l>
 <l>she neither rejects a marriage she despises</l>
 <l>nor can she bear to bring the courting to an end—</l>
 <l>while they continue to bleed my household white.</l>
 <l>Soon—you wait—they’ll grind me down as well.”</l>
-<l>“Shameful!”— brimming with indignation, <persName ref="#001">Pallas Athena</persName> broke out.</l>
-<l>“Oh how much you need <persName ref="#003">Odysseus</persName>, gone so long—</l>
-<l>how he’d lay hands on all <orgName>these brazen suitors</orgName>!</l>
+<l>“Shameful!”— brimming with indignation, <persName ref="#pers001">Pallas Athena</persName> broke out.</l>
+<l>“Oh how much you need <persName ref="#pers003">Odysseus</persName>, gone so long—</l>
+<l>how he’d lay hands on all <orgName ref="#org002">these brazen suitors</orgName>!</l>
 <l>If only he would appear, now,</l>
 <l>at his house’s outer gates and take his stand,</l>
 <l>armed with his helmet, shield and pair of spears,</l>
 <l>as strong as the man I glimpsed that first time</l>
 <l>in our own house, drinking wine and reveling there ...</l>
-<l>just come in from <placeName ref="NNN">Ephyra</placeName>, visiting <persName ref="#025">Ilus</persName>, <persName ref="#026">Mermerus</persName>’ son.</l>
-<l><persName ref="#003">Odysseus</persName> sailed that way, you see, in his swift trim ship,</l>
+<l>just come in from <placeName ref="place014">Ephyra</placeName>, visiting <persName ref="#pers025">Ilus</persName>, <persName ref="#pers026">Mermerus</persName>’ son.</l>
+<l><persName ref="#pers003">Odysseus</persName> sailed that way, you see, in his swift trim ship,</l>
 <l>hunting deadly poison to smear on his arrows’ bronze heads.</l>
-<l><persName ref="#025">Ilus</persName> refused—he feared the wrath of the everlasting gods—</l>
-<l>but <rs ref="#003">father</rs>, so fond of <rs ref="#025">him</rs>, gave <rs ref="#025">him</rs> all he wanted.</l>
-<l>If only that <persName ref="#003">Odysseus</persName> sported with <orgName>these suitors</orgName>,</l>
+<l><persName ref="#pers025">Ilus</persName> refused—he feared the wrath of the everlasting gods—</l>
+<l>but <rs ref="#pers003">father</rs>, so fond of <rs ref="#pers025">him</rs>, gave <rs ref="#pers025">him</rs> all he wanted.</l>
+<l>If only that <persName ref="#pers003">Odysseus</persName> sported with <orgName ref="#org002">these suitors</orgName>,</l>
 <l>a blood wedding, a quick death would take the lot!</l>
 <l>True, but all lies in the lap of the great gods,</l>
 <l>whether or not he’ll come and pay them back,</l>
 <l>here, in his own house.</l>
-<l>But <rs ref="#002">you</rs>, I urge you, think how to drive <orgName>these suitors</orgName> from your halls.</l>
+<l>But <rs ref="#pers002">you</rs>, I urge you, think how to drive <orgName ref="#org002">these suitors</orgName> from your halls.</l>
 <l>Come now, listen closely. Take my words to heart.</l>
 <l>At daybreak summon the island’s lords to full assembly,</l>
 <l>give your orders to all and call the gods to witness:</l>
-<l>tell <orgName>the suitors</orgName> to scatter, each to his own place.</l>
-<l>As for <rs ref="#007">your mother</rs>, if the spirit moves her to marry,</l>
-<l>let her go back to <rs ref="#027">her father</rs>’s house, <rs ref="#027">a man of power</rs>.</l>
-<l><rs ref="#007">Her</rs> kin will arrange the wedding, provide the gifts,</l>
+<l>tell <orgName ref="#org002">the suitors</orgName> to scatter, each to his own place.</l>
+<l>As for <rs ref="#pers007">your mother</rs>, if the spirit moves her to marry,</l>
+<l>let her go back to <rs ref="#pers027">her father</rs>’s house, <rs ref="#pers027">a man of power</rs>.</l>
+<l><rs ref="#pers007">Her</rs> kin will arrange the wedding, provide the gifts,</l>
 <l>the array that goes with a daughter dearly loved.</l>
-<l>For <rs ref="#002">you</rs>, I have some good advice, if only you will accept it.</l>
+<l>For <rs ref="#pers002">you</rs>, I have some good advice, if only you will accept it.</l>
 <l>Fit out a ship with twenty oars, the best in sight,</l>
-<l>sail in quest of news of <rs ref="#003">your long-lost father</rs>.</l>
+<l>sail in quest of news of <rs ref="#pers003">your long-lost father</rs>.</l>
 <l>Someone may tell you something</l>
-<l>or you may catch a rumor straight from <persName type="deity" ref="#010">Zeus</persName>,</l>
+<l>or you may catch a rumor straight from <persName type="deity" ref="#pers010">Zeus</persName>,</l>
 <l>rumor that carries news to men like nothing else.</l>
-<l>First go down to <placeName ref="FFF">Pylos</placeName>, question <persName ref="#028">old King Nestor</persName>,</l>
-<l>then cross over to <placeName ref="EEE">Sparta</placeName>, to <persName ref="#029">red-haired Menelaus</persName>,</l>
-<l>of all <orgName>the bronze-armored Achaeans</orgName> the last man back.</l>
-<l>Now, if you hear <rs ref="#003">your father</rs>’s alive and heading home,</l>
+<l>First go down to <placeName ref="place006">Pylos</placeName>, question <persName ref="#pers028">old King Nestor</persName>,</l>
+<l>then cross over to <placeName ref="place005">Sparta</placeName>, to <persName ref="#pers029">red-haired Menelaus</persName>,</l>
+<l>of all <orgName ref="#org005">the bronze-armored Achaeans</orgName> the last man back.</l>
+<l>Now, if you hear <rs ref="#pers003">your father</rs>’s alive and heading home,</l>
 <l>hard-pressed as you are, brave out one more year.</l>
 <l>If you hear he’s dead, no longer among the living,</l>
-<l>then back you come to <rs ref="BBB">the native land</rs> you love.</l>
+<l>then back you come to <rs ref="place002">the native land</rs> you love.</l>
 <l>raise his grave-mound, build his honors high</l>
 <l>with the full funeral rites that he deserves—</l>
-<l>and give <rs ref="#007">your mother</rs> to another husband.</l>
+<l>and give <rs ref="#pers007">your mother</rs> to another husband.</l>
 <l>Then, once you’ve sealed those matters, seen them through,</l>
 <l>think hard, reach down deep in your heart and soul</l>
-<l>for a way to kill <orgName>these suitors</orgName> in your house,</l>
+<l>for a way to kill <orgName ref="#org002">these suitors</orgName> in your house,</l>
 <l>by stealth or in open combat.</l>
 <l>You must not cling to your boyhood any longer—</l>
 <l>it’s time you were a man. Haven’t you heard</l>
-<l>what glory <persName ref="#013">Prince Orestes</persName> won throughout the world</l>
-<l>when he killed that <persName ref="#011">cunning, murderous Aegisthus</persName>,</l>
-<l>who’d killed <rs ref="#012">his famous father</rs>?</l>
+<l>what glory <persName ref="#pers013">Prince Orestes</persName> won throughout the world</l>
+<l>when he killed that <persName ref="#pers011">cunning, murderous Aegisthus</persName>,</l>
+<l>who’d killed <rs ref="#pers012">his famous father</rs>?</l>
 <l>And you, my friend— how tall and handsome I see you now—be brave, you too,</l>
 <l>so men to come will sing your praises down the years.</l>
 <l>But now I must go back to my swift trim ship</l>
 <l>and all my shipmates, chafing there, I’m sure,</l>
 <l>waiting for my return. It all rests with you.</l>
 <l>Take my words to heart.”</l>
-<l>“<rs ref="#001">Oh stranger</rs>,” <persName ref="#002">heedful Telemachus</persName> replied, “indeed I will.</l>
+<l>“<rs ref="#pers001">Oh stranger</rs>,” <persName ref="#pers002">heedful Telemachus</persName> replied, “indeed I will.</l>
 <l>You’ve counseled me with so much kindness now,</l>
 <l>like a father to a son. I won’t forget a word.</l>
 <l>But come, stay longer, keen as you are to sail,</l>
@@ -417,25 +417,25 @@
 <l>a prize of honor, something rare and fine</l>
 <l>as a keepsake from myself. The kind of gift</l>
 <l>a host will give a stranger, friend to friend.”</l>
-<l>Her eyes glinting, <persName ref="#001">Pallas</persName> declined in haste:</l>
+<l>Her eyes glinting, <persName ref="#pers001">Pallas</persName> declined in haste:</l>
 <l>“Not now. Don’t hold me here. I long to be on my way.</l>
 <l>As for the gift—whatever you’d give in kindness—</l>
 <l>save it for my return so I can take it home.</l>
 <l>Choose something rare and fine, and a good reward</l>
 <l>that gift is going to bring you.”</l>
-            <l>With that promise, off and away <persName type="deity" ref="#001">Athena</persName><rs>the bright-eyed goddess</rs> flew</l>
+            <l>With that promise, off and away <persName type="deity" ref="#pers001">Athena</persName><rs>the bright-eyed goddess</rs> flew</l>
 <l>like a bird in soaring flight</l>
-<l>but left <rs ref="#002">his</rs> spirit filled with nerve and courage,</l>
-<l>charged with <rs ref="#003">his father</rs>’s memory more than ever now.</l>
+<l>but left <rs ref="#pers002">his</rs> spirit filled with nerve and courage,</l>
+<l>charged with <rs ref="#pers003">his father</rs>’s memory more than ever now.</l>
 <l>He felt his senses quicken, overwhelmed with wonder—</l>
-<l>this was a <rs ref="#001">god</rs>, he knew it well and made at once</l>
-<l>for <orgName>the suitors</orgName>, <rs ref="#002">a man like a god himself</rs>.</l>
-<l>Amidst them still <rs ref="#022">the famous bard</rs> sang on, and <rs>they</rs> sat in silence, listening</l>
-<l>as <rs ref="#022">he</rs> performed <orgName>The Achaeans</orgName>’ Journey Home from <placeName ref="AAA">Troy</placeName>,</l>
-<l>all the blows <persName type="deity" ref="#001">Athena</persName> doomed <rs>them</rs> to endure.</l>
-<l>And now, from high above in <rs ref="#007">her</rs> room and deep in thought,</l>
-<l><rs ref="#007">she</rs> caught <rs ref="#022">his</rs> inspired strains ...</l>
-<l><persName ref="#007"><persName ref="#027">Icarius</persName>’ daughter Penelope</persName>, wary and reserved,</l>
+<l>this was a <rs ref="#pers001">god</rs>, he knew it well and made at once</l>
+<l>for <orgName ref="#org002">the suitors</orgName>, <rs ref="#pers002">a man like a god himself</rs>.</l>
+<l>Amidst them still <rs ref="#pers022">the famous bard</rs> sang on, and <rs>they</rs> sat in silence, listening</l>
+<l>as <rs ref="#pers022">he</rs> performed <orgName ref="#org005">The Achaeans</orgName>’ Journey Home from <placeName ref="place001">Troy</placeName>,</l>
+<l>all the blows <persName type="deity" ref="#pers001">Athena</persName> doomed <rs>them</rs> to endure.</l>
+<l>And now, from high above in <rs ref="#pers007">her</rs> room and deep in thought,</l>
+<l><rs ref="#pers007">she</rs> caught <rs ref="#pers022">his</rs> inspired strains ...</l>
+<l><persName ref="#pers007"><persName ref="#pers027">Icarius</persName>’ daughter Penelope</persName>, wary and reserved,</l>
 <l>and down the steep stair from her chamber she descended,</l>
 <l>not alone: two of her women followed close behind.</l>
 <l>That radiant woman, once she reached <rs>her suitors</rs>,</l>
@@ -443,47 +443,47 @@
 <l>paused now where a column propped the sturdy roof,</l>
 <l>with one of her loyal handmaids stationed either side.</l>
 <l>Suddenly, dissolving in tears and bursting through</l>
-<l><rs ref="#022">the bard</rs>’s inspired voice, <rs ref="#007">she</rs> cried out, “<persName ref="#022">Phemius</persName>!</l>
+<l><rs ref="#pers022">the bard</rs>’s inspired voice, <rs ref="#pers007">she</rs> cried out, “<persName ref="#pers022">Phemius</persName>!</l>
 <l>So many other songs you know to hold us spellbound,</l>
 <l>works of the gods and men that singers celebrate.</l>
 <l>Sing one of those as you sit beside <rs>them</rs> here</l>
 <l>and they drink their wine in silence.</l>
 <l>But break off this song— the unendurable song that always rends the heart inside me ...</l>
 <l>the unforgettable grief, it wounds me most of all!</l>
-<l>How I long for <rs ref="#003">my husband</rs>—alive in memory, always, </l>
-<l>that great man whose fame resounds through <placeName ref="OOO">Hellas</placeName></l>
-<l>right to the depths of <placeName ref="PPP">Argos</placeName>!”</l>
-<l>“Why, <rs ref="#007">mother</rs>,” poised <persName ref="#002">Telemachus</persName> put in sharply, “why deny</l>
-<l><rs ref="#022">our devoted bard</rs> the chance to entertain us</l>
+<l>How I long for <rs ref="#pers003">my husband</rs>—alive in memory, always, </l>
+<l>that great man whose fame resounds through <placeName ref="place015">Hellas</placeName></l>
+<l>right to the depths of <placeName ref="place016">Argos</placeName>!”</l>
+<l>“Why, <rs ref="#pers007">mother</rs>,” poised <persName ref="#pers002">Telemachus</persName> put in sharply, “why deny</l>
+<l><rs ref="#pers022">our devoted bard</rs> the chance to entertain us</l>
 <l>any way the spirit stirs him on?</l>
 <l>Bards are not to blame—</l>
-<l><persName type="deity" ref="#010">Zeus</persName> is to blame. He deals to each and every</l>
+<l><persName type="deity" ref="#pers010">Zeus</persName> is to blame. He deals to each and every</l>
 <l>laborer on this earth whatever doom he pleases.</l>
-<l>Why fault the bard if he sings the <orgName>Argives</orgName>’ harsh fate?</l>
+<l>Why fault the bard if he sings the <orgName ref="#org009">Argives</orgName>’ harsh fate?</l>
 <l>It’s always the latest song, the one that echoes last</l>
 <l>in the listeners’ ears, that people praise the most.</l>
-<l>Courage, <rs ref="#007">mother</rs>. Harden your heart, and listen.</l>
-<l><persName ref="003">Odysseus</persName> was scarcely the only one, you know,</l>
-<l>whose journey home was blotted out at <placeName ref="AAA">Troy</placeName>.</l>
+<l>Courage, <rs ref="#pers007">mother</rs>. Harden your heart, and listen.</l>
+<l><persName ref="pers003">Odysseus</persName> was scarcely the only one, you know,</l>
+<l>whose journey home was blotted out at <placeName ref="place001">Troy</placeName>.</l>
 <l>Others, so many others, died there too.</l>
-<l>So, <rs ref="#007">mother</rs>, go back to your quarters. Tend to your own tasks,</l>
+<l>So, <rs ref="#pers007">mother</rs>, go back to your quarters. Tend to your own tasks,</l>
 <l>the distaff and the loom, and keep the women</l>
 <l>working hard as well. As for giving orders,</l>
 <l>men will see to that, but I most of all:</l>
 <l>I hold the reins of power in this house.”</l>
-<l>Astonished, <rs ref="#007">she</rs> withdrew to her own room. She took to heart</l>
-<l>the clear good sense in what <rs ref="#002">her son</rs> had said.</l>
+<l>Astonished, <rs ref="#pers007">she</rs> withdrew to her own room. She took to heart</l>
+<l>the clear good sense in what <rs ref="#pers002">her son</rs> had said.</l>
 <l>Climbing up to the lofty chamber with her women,</l>
-<l>she fell to weeping for <persName ref="#003">Odysseus</persName>, <rs ref="#003">her beloved husband</rs>,</l>
-<l>till <persName type="deity" ref="#001">watchful Athena</persName> sealed <rs ref="#007">her</rs> eyes with welcome sleep.</l>
-<l>But <orgName>the suitors</orgName> broke into uproar through the shadowed</l>
-<l>halls, all of them lifting prayers to lie beside <rs ref="#007">her</rs>, share her bed,</l>
-<l>until <persName ref="#002">discreet Telemachus</persName> took command: “<orgName>You suitors</orgName></l>
-<l>who plague <rs ref="#007">my mother</rs>, you, you insolent, overweening ...</l>
+<l>she fell to weeping for <persName ref="#pers003">Odysseus</persName>, <rs ref="#pers003">her beloved husband</rs>,</l>
+<l>till <persName type="deity" ref="#pers001">watchful Athena</persName> sealed <rs ref="#pers007">her</rs> eyes with welcome sleep.</l>
+<l>But <orgName ref="#org002">the suitors</orgName> broke into uproar through the shadowed</l>
+<l>halls, all of them lifting prayers to lie beside <rs ref="#pers007">her</rs>, share her bed,</l>
+<l>until <persName ref="#pers002">discreet Telemachus</persName> took command: “<orgName ref="#org002">You suitors</orgName></l>
+<l>who plague <rs ref="#pers007">my mother</rs>, you, you insolent, overweening ...</l>
 <l>for this evening let us dine and take our pleasure,</l>
 <l>no more shouting now. What a fine thing it is</l>
-<l>to listen to <rs ref="#022">such a bard as we have here</rs>—</l>
-<l><rs ref="#022">the man sings like a god</rs>.</l>
+<l>to listen to <rs ref="#pers022">such a bard as we have here</rs>—</l>
+<l><rs ref="#pers022">the man sings like a god</rs>.</l>
 <l>But at first light we all march forth to assembly, take our seats</l>
 <l>so I can give my orders and say to you straight out:</l>
 <l><rs>You</rs> must leave my palace! See to your feasting elsewhere,</l>
@@ -492,77 +492,77 @@
 <l>destroying one man’s goods and going scot-free,</l>
 <l>all right then, carve away!</l>
 <l>But I’ll cry out to the everlasting gods in hopes</l>
-<l>that <persName type="deity" ref="#010">Zeus</persName> will pay you back with a vengeance—all of you</l>
+<l>that <persName type="deity" ref="#pers010">Zeus</persName> will pay you back with a vengeance—all of you</l>
 <l>destroyed in my house while I go scot-free myself!”</l>
-<l>So <persName ref="#002">Telemachus</persName> declared. And they all bit their lips,</l>
-<l>amazed <rs ref="#002">the prince</rs> could speak with so much daring.</l>
-<l><rs ref="#031"><persName ref="#030">Eupithes</persName>’ son</rs> <persName ref="#031">Antinous</persName> broke their silence:</l>
-<l>“Well, <persName ref="#002">Telemachus</persName>, only the gods could teach you</l>
+<l>So <persName ref="#pers002">Telemachus</persName> declared. And they all bit their lips,</l>
+<l>amazed <rs ref="#pers002">the prince</rs> could speak with so much daring.</l>
+<l><rs ref="#pers031"><persName ref="#pers030">Eupithes</persName>’ son</rs> <persName ref="#pers031">Antinous</persName> broke their silence:</l>
+<l>“Well, <persName ref="#pers002">Telemachus</persName>, only the gods could teach you</l>
 <l>to sound so high and mighty! Such brave talk.</l>
-<l>I pray that <persName type="deity" ref="#010">Zeus</persName> will never make you king of <placeName ref="BBB">Ithaca</placeName>,</l>
-<l>though <rs ref="#003">your father</rs>’s crown is no doubt <rs ref="#002">yours</rs> by birth.”</l>
-<l>But <persName ref="#002">cool-headed Telemachus</persName> countered firmly:</l>
-<l>“<persName ref="#031">Antinous</persName>, even though my words may offend you,</l>
-<l>I’d be happy to take the crown if <persName type="deity" ref="#010">Zeus</persName> presents it.</l>
+<l>I pray that <persName type="deity" ref="#pers010">Zeus</persName> will never make you king of <placeName ref="place002">Ithaca</placeName>,</l>
+<l>though <rs ref="#pers003">your father</rs>’s crown is no doubt <rs ref="#pers002">yours</rs> by birth.”</l>
+<l>But <persName ref="#pers002">cool-headed Telemachus</persName> countered firmly:</l>
+<l>“<persName ref="#pers031">Antinous</persName>, even though my words may offend you,</l>
+<l>I’d be happy to take the crown if <persName type="deity" ref="#pers010">Zeus</persName> presents it.</l>
 <l>You think that nothing worse could befall a man?</l>
 <l>It’s really not so bad to be a king. All at once</l>
 <l>your palace grows in wealth, your honors grow as well.</l>
-<l>But there are hosts of other <orgName>Achaean</orgName> princes, look—</l>
-<l>young and old, crowds of them on <placeName ref="BBB">our island here</placeName>—</l>
+<l>But there are hosts of other <orgName ref="#org005">Achaean princes,</orgName> look—</l>
+<l>young and old, crowds of them on <placeName ref="place002">our island here</placeName>—</l>
 <l>and any one of the lot might hold the throne,</l>
-<l>now great <persName ref="#003">Odysseus</persName> is dead ...</l>
+<l>now great <persName ref="#pers003">Odysseus</persName> is dead ...</l>
 <l>But I’ll be lord of my own house and servants,</l>
-<l>all that <persName ref="#003">King Odysseus</persName> won for me by force.”</l>
-<l>And now <persName ref="#032">Eurymachus</persName>, <rs><persName ref="#033">Polybus</persName>’ son</rs>, stepped in:</l>
-<l>“Surely this must lie in the gods’ lap, <persName ref="#002">Telemachus</persName>—</l>
-<l>which <orgName>Achaean</orgName> will lord it over <placeName ref="BBB">seagirt Ithaca</placeName>.</l>
+<l>all that <persName ref="#pers003">King Odysseus</persName> won for me by force.”</l>
+<l>And now <persName ref="#pers032">Eurymachus</persName>, <rs><persName ref="#pers033">Polybus</persName>’ son</rs>, stepped in:</l>
+<l>“Surely this must lie in the gods’ lap, <persName ref="#pers002">Telemachus</persName>—</l>
+<l>which <orgName ref="#org005">Achaean</orgName> will lord it over <placeName ref="place002">seagirt Ithaca</placeName>.</l>
 <l>Do hold on to your own possessions, rule your house.</l>
 <l>God forbid that anyone tear your holdings from your hands</l>
-<l>while men still live in <placeName ref="BBB">Ithaca</placeName>.</l>
-<l>But about <rs ref="#001">your guest</rs>, <rs ref="#002">dear boy</rs>, I have some questions. Where does <rs ref="#001">he</rs> come from?</l>
+<l>while men still live in <placeName ref="place002">Ithaca</placeName>.</l>
+<l>But about <rs ref="#pers001">your guest</rs>, <rs ref="#pers002">dear boy</rs>, I have some questions. Where does <rs ref="#pers001">he</rs> come from?</l>
 <l>Where’s his country, his birth, his father’s old estates?</l>
-<l>Did he bring some news of <rs ref="#003">your father, his return</rs>?</l>
-<l>Or did <rs ref="#001">he</rs> come on business of his own?</l>
+<l>Did he bring some news of <rs ref="#pers003">your father, his return</rs>?</l>
+<l>Or did <rs ref="#pers001">he</rs> come on business of his own?</l>
 <l>How he leapt to his feet and off he went!</l>
 <l>No waiting around for proper introductions.</l>
 <l>And no mean man, not by the looks of him, I’d say.”</l>
-<l>“<persName ref="#032">Eurymachus</persName>,” <persName ref="#002">Telemachus</persName> answered shrewdly,</l>
-<l>“clearly <rs ref="#003">my father</rs>’s journey home is lost forever.</l>
+<l>“<persName ref="#pers032">Eurymachus</persName>,” <persName ref="#pers002">Telemachus</persName> answered shrewdly,</l>
+<l>“clearly <rs ref="#pers003">my father</rs>’s journey home is lost forever.</l>
 <l>I no longer trust in rumors—rumors from the blue—</l>
-<l>nor bother with any prophecy, when <rs ref="#007">mother</rs> calls</l>
+<l>nor bother with any prophecy, when <rs ref="#pers007">mother</rs> calls</l>
 <l>some wizard into the house to ask him questions.</l>
-<l>As for <rs ref="#001">the stranger</rs> though,</l>
-<l><rs ref="#001">the man’s</rs> <rs  ref="#001">an old family friend</rs>, from <placeName ref="QQQ">Taphos</placeName>,</l>
-<l><rs ref="#021"><rs ref="#023">wise <persName ref="#023">Anchialus</persName>’</rs> son</rs>. He says his name is <persName ref="#021">Mentes</persName>,</l>
-<l><rs ref="#021">lord of the <orgName>Taphian men</orgName></rs> <rs>who love their oars.”</rs></l>
-<l>So <rs ref="#002">he</rs> said but deep in his mind he knew <rs ref="#001">the immortal goddess</rs>.</l>
-<l>Now <orgName>the suitors</orgName> turned to dance and song,</l>
+<l>As for <rs ref="#pers001">the stranger</rs> though,</l>
+<l><rs ref="#pers001">the man’s</rs> <rs  ref="#pers001">an old family friend</rs>, from <placeName ref="place017">Taphos</placeName>,</l>
+<l><rs ref="#pers021"><rs ref="#pers023">wise <persName ref="#pers023">Anchialus</persName>’</rs> son</rs>. He says his name is <persName ref="#pers021">Mentes</persName>,</l>
+<l><rs ref="#pers021">lord of the <orgName ref="#org001">Taphian men</orgName></rs> <rs>who love their oars.”</rs></l>
+<l>So <rs ref="#pers002">he</rs> said but deep in his mind he knew <rs ref="#pers001">the immortal goddess</rs>.</l>
+<l>Now <orgName ref="#org002">the suitors</orgName> turned to dance and song,</l>
 <l>to the lovely beat and sway,</l>
 <l>waiting for dusk to come upon them there ...</l>
 <l>and the dark night came upon them, lost in pleasure.</l>
 <l>Finally, to bed. Each to his own house.</l>
-<l><persName ref="#002">Telemachus</persName>, off to his bedroom built in the fine courtyard—</l>
+<l><persName ref="#pers002">Telemachus</persName>, off to his bedroom built in the fine courtyard—</l>
 <l>a commanding, lofty room set well apart—</l>
 <l>retired too, his spirit swarming with misgivings.</l>
-<l><rs ref="#034">His devoted nurse</rs> attended him, bearing a glowing torch,</l>
-<l><persName ref="#034">Eurycleia</persName> <rs ref="#034">the daughter of <persName ref="#035">Ops</persName></rs>, <rs ref="#035"><persName ref="#036">Pisenor</persName>’s son</rs>.</l>
-<l><persName ref="#024">Laertes</persName> had paid a price for <rs ref="#034">the woman</rs> years ago,</l>
-<l>still in the bloom of youth. <rs ref="#024">He</rs> traded twenty oxen,</l>
-<l>honored <rs ref="#034">her</rs> on a par with <rs ref="#037">his own loyal wife</rs> at home</l>
-<l>but fearing <rs ref="#037">the queen</rs>’s anger, never shared <rs ref="#034">her</rs> bed.</l>
-<l><rs ref="#034">She</rs> was <rs ref="#002"><rs ref="#024">his</rs>grandson</rs>’s escort now and bore a torch,</l>
-<l>for <rs ref="#002">she</rs> was the one of all the maids who loved</l>
-<l><rs ref="#002">the prince</rs> the most—<rs ref="#034">she</rs>’d nursed him as a baby.</l>
-<l><rs ref="#002">He</rs> spread the doors of his snug, well-made room,</l>
+<l><rs ref="#pers034">His devoted nurse</rs> attended him, bearing a glowing torch,</l>
+<l><persName ref="#pers034">Eurycleia</persName> <rs ref="#pers034">the daughter of <persName ref="#pers035">Ops</persName></rs>, <rs ref="#pers035"><persName ref="#pers036">Pisenor</persName>’s son</rs>.</l>
+<l><persName ref="#pers024">Laertes</persName> had paid a price for <rs ref="#pers034">the woman</rs> years ago,</l>
+<l>still in the bloom of youth. <rs ref="#pers024">He</rs> traded twenty oxen,</l>
+<l>honored <rs ref="#pers034">her</rs> on a par with <rs ref="#pers037">his own loyal wife</rs> at home</l>
+<l>but fearing <rs ref="#pers037">the queen</rs>’s anger, never shared <rs ref="#pers034">her</rs> bed.</l>
+<l><rs ref="#pers034">She</rs> was <rs ref="#pers002"><rs ref="#pers024">his</rs>grandson</rs>’s escort now and bore a torch,</l>
+<l>for <rs ref="#pers002">she</rs> was the one of all the maids who loved</l>
+<l><rs ref="#pers002">the prince</rs> the most—<rs ref="#pers034">she</rs>’d nursed him as a baby.</l>
+<l><rs ref="#pers002">He</rs> spread the doors of his snug, well-made room,</l>
 <l>sat down on the bed and pulled his soft shirt off,</l>
-<l>tossed it into the <rs ref="#034">old woman</rs>’s conscientious hands,</l>
+<l>tossed it into the <rs ref="#pers034">old woman</rs>’s conscientious hands,</l>
 <l>and after folding it neatly, patting it smooth,</l>
 <l>she hung it up on a peg beside his corded bed,</l>
 <l>then padded from the bedroom,</l>
 <l>drawing the door shut with the silver hook,</l>
 <l>sliding the doorbolt home with its rawhide strap.</l>
 <l>There all night long, wrapped in a sheep’s warm fleece,</l>
-<l>he weighed in his mind the course <persName type="deity" ref="#001">Athena</persName> charted.</l>
+<l>he weighed in his mind the course <persName type="deity" ref="#pers001">Athena</persName> charted.</l>
          </div>
          <div>
 <head>Book II Telemachus Sets Sail</head>
@@ -899,7 +899,7 @@
 <l>and the ship went plunging all night long and through the dawn.</l>
          </div>
          <div>
-<head>Book III
+<head>Book place009
 King Nestor Remembers</head>
 <l>As the sun sprang up, leaving the brilliant waters in its wake,</l>
 <l>climbing the bronze sky to shower light on immortal gods</l>
@@ -2944,7 +2944,7 @@ The King and Queen of Sparta</head>
 <l>Alcinous slept in chambers deep in his lofty house where the queen his wife arranged and shared their bed.</l>
          </div>
          <div>
-<head> Book VIII A Day for Songs and Contests</head>
+<head> Book Vplace009 A Day for Songs and Contests</head>
 <l>When young Dawn with her rose-red fingers shone once more royal Alcinous, hallowed island king, rose from bed</l>
 <l>and great Odysseus, raider of cities, rose too.</l>
 <l>Poised in his majesty, Alcinous led the way</l>
@@ -5247,7 +5247,7 @@ The King and Queen of Sparta</head>
 <l>I drifted along nine days. On the tenth, at night, the gods cast me up on Ogygia, Calypso’s island, home of the dangerous nymph with glossy braids who speaks with human voice, and she took me in, she loved me ... Why cover the same ground again? Just yesterday, here at hall, I told you all the rest, you and your gracious wife. It goes against my grain to repeat a tale told once, and told so clearly.”</l>
          </div>
          <div>
-<head> Book XIII Ithaca at Last</head>
+<head> Book Xplace009 Ithaca at Last</head>
 <l>His tale was over now. The Phaeacians all fell silent, hushed,</l>
 <l> his story holding them spellbound down the shadowed halls until Alcinous found the poise to say, “Odysseus,</l>
 <l>now that you have come to my bronze-floored house,</l>
@@ -6030,7 +6030,7 @@ The King and Queen of Sparta</head>
 <l> See, I’ve got no cloak. Some spirit’s fooled me—</l>
 <l> I came out half-dressed. Now there’s no escape!’</l>
 <l> I hadn’t finished—a thought flashed in his mind; no one could touch the man at plots or battles.</l>
-<l> ‘Shhh!’ he hissed back—Odysseus had a plan— ‘One of our fighters over there might hear you.’</l>
+<l> ‘Splace008!’ he hissed back—Odysseus had a plan— ‘One of our fighters over there might hear you.’</l>
 <l> Then he propped his head on his forearm, calling out,</l>
 <l> ‘Friends, wake up. I slept and a god sent down a dream.</l>
 <l> It warned that we’re too far from the ships, exposed.</l>
@@ -7353,7 +7353,7 @@ The King and Queen of Sparta</head>
 <l>The day was over. Dusk was falling fast.</l>
          </div>
          <div>
-<head> Book XVIII The Beggar-King of Ithaca</head>
+<head> Book XVplace009 The Beggar-King of Ithaca</head>
 <l>Now along came this tramp, this public nuisance</l>
 <l>who used to scrounge a living round the streets of Ithaca— notorious for his belly, a ravenous, bottomless pit</l>
 <l> for food and drink, but he had no pith, no brawn,</l>
@@ -9205,7 +9205,7 @@ The King and Queen of Sparta</head>
 <l>They came crowding out of their quarters, torch in hand, flung their arms around Odysseus, hugged him, home at last, and kissed his head and shoulders, seized his hands, and he, overcome by a lovely longing, broke down and wept ...</l><l>deep in his heart he knew them one and all.</l>
          </div>
          <div>
-<head> Book XXIII The Great Rooted Bed</head>
+<head> Book XXplace009 The Great Rooted Bed</head>
 <l>Up to the rooms the old nurse clambered, chuckling all the way, to tell the queen her husband was here now, home at last.</l>
 <l>Her knees bustling, feet shuffling over each other,</l>
 <l> till hovering at her mistress’ head she spoke:</l>

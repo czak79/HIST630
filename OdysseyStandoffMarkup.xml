@@ -9,7 +9,13 @@
             <title>My Standoff Markup</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <publisher>HIST630 Digital Methods for Historical Research course</publisher>
+            <date when="2023-02-21">21 February 2pers023</date>
+            <idno type="filename">HomerOdysseyFaglesTranslation.xml</idno>
+            <availability status="free">
+               <p>This text is freely available provided the text is distributed with the header information provided</p>
+               <p xml:lang="en">The text has been translated from Greek to English</p>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <p>Born digital</p>
@@ -18,22 +24,200 @@
   </teiHeader>
    <standOff>
       <listPerson>
-         <person xml:id="person001">
-            
+         <person xml:id="pers001">
+            <persName>Athena</persName>
          </person>
-         <!-- etc.-->
+         <person xml:id="pers002">
+            <persName>Telemachus</persName>
+         </person>
+         <person xml:id="pers003">
+            <persName>Odysseus</persName>
+         </person>
+         <person xml:id="pers004">
+            <persName>Muse</persName>
+         </person>
+         <person xml:id="pers005">
+            <persName>Apollo</persName>
+         </person>
+         <person xml:id="pers006">
+            <persName>Zeus</persName>
+         </person>
+         <person xml:id="pers007">
+            <persName>Penelope</persName>
+         </person>
+         <person xml:id="pers008">
+            <persName>Calypso</persName>
+         </person>
+         <person xml:id="pers009">
+            <persName>Poseidon</persName>
+         </person>
+         <person xml:id="pers010">
+            <persName>Zeus</persName>
+         </person>
+         <person xml:id="pers011">
+            <persName>Aegisthus</persName>
+         </person>
+         <person xml:id="pers012">
+            <persName>Agamemnon</persName>
+         </person>
+         <person xml:id="pers013">
+            <persName>Orestes</persName>
+         </person>
+         <person xml:id="pers014">
+            <persName>Clytemnestra</persName>
+         </person>
+         <person xml:id="pers015">
+            <persName>Hermes</persName>
+         </person>
+         <person xml:id="pers016">
+            <persName>Cronus</persName>
+         </person>
+         <person xml:id="pers017">
+            <persName>Atlas</persName>
+         </person>
+         <person xml:id="pers018">
+            <persName>Polyphemus</persName>
+         </person>
+         <person xml:id="pers019">
+            <persName>Thoosa</persName>
+         </person>
+         <person xml:id="pers020">
+            <persName>Phorcys</persName>
+         </person>
+         <person xml:id="pers021">
+            <persName>Mentes</persName>
+         </person>
+         <person xml:id="pers022">
+            <persName>Phemius</persName>
+         </person>
+         <person xml:id="pers023">
+            <persName>Anchialus</persName>
+         </person>
+         <person xml:id="pers024">
+            <persName>Laertes</persName>
+         </person>
+         <person xml:id="pers025">
+            <persName>Ilus</persName>
+         </person>
+         <person xml:id="pers026">
+            <persName>Mermerus</persName>
+         </person>
+         <person xml:id="pers027">
+            <persName>Icarius</persName>
+         </person>
+         <person xml:id="pers028">
+            <persName>Nestor</persName>
+         </person>
+         <person xml:id="pers029">
+            <persName>Menelaus</persName>
+         </person>
+         <person xml:id="pers030">
+            <persName>Euphithes</persName>
+         </person>
+         <person xml:id="pers031">
+            <persName>Antinous</persName>
+         </person>
+         <person xml:id="pers032">
+            <persName>Eurymachus</persName>
+         </person>
+         <person xml:id="pers033">
+            <persName>Polybus</persName>
+         </person>
+         <person xml:id="pers034">
+            <persName>Eurycleia</persName>
+         </person>
+         <person xml:id="pers035">
+            <persName>Ops</persName>
+         </person>
+         <person xml:id="pers036">
+            <persName>Pisenor</persName>
+         </person>
+         <person xml:id="pers037">
+            <persName>Laertes' wife</persName>
+         </person>
       </listPerson>
       <listPlace>
          <place xml:id="place001">
-            
+            <placeName>Troy</placeName>
          </place>
-         <!-- etc.-->
+         <place xml:id="place002">
+            <placeName>Ithaca</placeName>
+         </place>
+         <place xml:id="place003">
+            <placeName>Mycenae</placeName>
+         </place>
+         <place xml:id="place004">
+            <placeName>Pgygia</placeName>
+         </place>
+         <place xml:id="place005">
+            <placeName>Sparta</placeName>
+         </place>
+         <place xml:id="place006">
+            <placeName>Pylos</placeName>
+         </place>
+         <place xml:id="place007">
+            <placeName>Olympus</placeName>
+         </place>
+         <place xml:id="place008">
+            <placeName>Temese</placeName>
+         </place>
+         <place xml:id="place009">
+            <placeName>Rithron Cove</placeName>
+         </place>
+         <place xml:id="place010">
+            <placeName>Mount Nion</placeName>
+         </place>
+         <place xml:id="place011">
+            <placeName>Dulichion</placeName>
+         </place>
+         <place xml:id="place012">
+            <placeName>Same</placeName>
+         </place>
+         <place xml:id="place013">
+            <placeName>Zacynthus</placeName>
+         </place>
+         <place xml:id="place014">
+            <placeName>Ephyra</placeName>
+         </place>
+         <place xml:id="place015">
+            <placeName>Hellas</placeName>
+         </place>
+         <place xml:id="place016">
+            <placeName>Argos</placeName>
+         </place>
+         <place xml:id="place017">
+            <placeName>Taphos</placeName>
+         </place>
       </listPlace>
       <listOrg>
          <org xml:id="org001">
-            
+            <orgName>Taphians</orgName>
          </org>
-         <!-- etc.-->
+         <org xml:id="org002">
+            <orgName>Suitors</orgName>
+         </org>
+         <org xml:id="org003">
+            <orgName>Ethiopians</orgName>
+         </org>
+         <org xml:id="org004">
+            <orgName>Cyclops</orgName>
+         </org>
+         <org xml:id="org005">
+            <orgName>Achaeans</orgName>
+         </org>
+         <org xml:id="org006">
+            <orgName>heralds</orgName>
+         </org>
+         <org xml:id="org007">
+            <orgName>attendants</orgName>
+            <orgName>servants</orgName>
+         </org>
+         <org xml:id="org008">
+            <orgName>maids</orgName>
+         </org>
+         <org xml:id="org009">
+            <orgName>Argives</orgName>
+         </org>
       </listOrg>
    </standOff>
 </TEI>
