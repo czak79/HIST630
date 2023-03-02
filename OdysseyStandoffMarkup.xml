@@ -24,38 +24,49 @@
   </teiHeader>
    <standOff>
       <listPerson>
-         <person xml:id="pers001">
+         <person xml:id="pers001" role="deity">
             <persName>Athena</persName>
+            <age>immortal</age>
          </person>
          <person xml:id="pers002">
             <persName>Telemachus</persName>
             <birth><placeName>Ithaca</placeName></birth>
+            <occupation>prince</occupation>
          </person>
          <person xml:id="pers003">
             <persName>Odysseus</persName>
             <birth><placeName>Ithaca</placeName></birth>
+            <affiliation type="#org005"></affiliation>
+            <affiliation type="#org009"></affiliation>
+            <occupation>king</occupation>
          </person>
-         <person xml:id="pers004">
+         <person xml:id="pers004" role="deity">
             <persName>Muse</persName>
+            <age>immortal</age>
          </person>
-         <person xml:id="pers005">
+         <person xml:id="pers005" role="deity">
             <persName>Apollo</persName>
+            <age>immortal</age>
          </person>
-         <person xml:id="pers006">
+         <person xml:id="pers006" role="deity">
             <persName>Zeus</persName>
+            <age>immortal</age>
          </person>
          <person xml:id="pers007">
             <persName>Penelope</persName>
             <birth><placeName>Ithaca</placeName></birth>
          </person>
-         <person xml:id="pers008">
+         <person xml:id="pers008" role="deity">
             <persName>Calypso</persName>
+            <age>immortal</age>
          </person>
-         <person xml:id="pers009">
+         <person xml:id="pers009" role="deity">
             <persName>Poseidon</persName>
+            <age>immortal</age>
          </person>
-         <person xml:id="pers010">
+         <person xml:id="pers010" role="deity">
             <persName>Zeus</persName>
+            <age>immortal</age>
          </person>
          <person xml:id="pers011">
             <persName>Aegisthus</persName>
@@ -64,33 +75,40 @@
          <person xml:id="pers012">
             <persName>Agamemnon</persName>
             <birth><placeName>Mycenae</placeName></birth>
+            <occupation>king</occupation>
          </person>
          <person xml:id="pers013">
             <persName>Orestes</persName>
             <birth><placeName>Mycenae</placeName></birth>
+            <occupation>prince</occupation>
          </person>
          <person xml:id="pers014">
             <persName>Clytemnestra</persName>
             <birth><placeName>Sparta</placeName></birth>
          </person>
-         <person xml:id="pers015">
+         <person xml:id="pers015" role="deity">
             <persName>Hermes</persName>
+            <age>immortal</age>
          </person>
-         <person xml:id="pers016">
+         <person xml:id="pers016" role="deity">
             <persName>Cronus</persName>
+            <age>immortal</age>
          </person>
-         <person xml:id="pers017">
+         <person xml:id="pers017" role="deity">
             <persName>Atlas</persName>
+            <age>immortal</age>
          </person>
-         <person xml:id="pers018">
+         <person xml:id="pers018" role="deity">
             <persName>Polyphemus</persName>
+            <affiliation type="#org004">Cyclops</affiliation>
          </person>
-         <person xml:id="pers019">
+         <person xml:id="pers019" role="deity">
             <persName>Thoosa</persName>
+            <age>immortal</age>
          </person>
-         <person xml:id="pers020">
+         <person xml:id="pers020" role="deity">
             <persName>Phorcys</persName>
-            <birth><placeName>Taphos</placeName></birth>
+            <age>immortal</age>
          </person>
          <person xml:id="pers021">
             <persName>Mentes</persName>
@@ -99,9 +117,11 @@
          <person xml:id="pers022">
             <persName>Phemius</persName>
             <birth><placeName>Ithaca</placeName></birth>
+            <occupation>bard</occupation>
          </person>
          <person xml:id="pers023">
             <persName>Anchialus</persName>
+            <birth><placeName>Taphos</placeName></birth>
          </person>
          <person xml:id="pers024">
             <persName>Laertes</persName>
@@ -120,10 +140,17 @@
          <person xml:id="pers028">
             <persName>Nestor</persName>
             <birth><placeName>Pylos</placeName></birth>
+            <affiliation type="#org005"></affiliation>
+            <affiliation type="#org009"></affiliation>
+            <occupation>king</occupation>
          </person>
          <person xml:id="pers029">
             <persName>Menelaus</persName>
             <birth><placeName>Sparta</placeName></birth>
+            <affiliation>Spartans</affiliation>
+            <affiliation type="#org005"></affiliation>
+            <affiliation type="#org009"></affiliation>
+            <occupation>king</occupation>
          </person>
          <person xml:id="pers030">
             <persName>Euphithes</persName>
@@ -132,10 +159,12 @@
          <person xml:id="pers031">
             <persName>Antinous</persName>
             <birth><placeName>Ithaca</placeName></birth>
+            <affiliation type="#org002">suitors</affiliation>
          </person>
          <person xml:id="pers032">
             <persName>Eurymachus</persName>
             <birth><placeName>Ithaca</placeName></birth>
+            <affiliation type="#org002">suitors</affiliation>
          </person>
          <person xml:id="pers033">
             <persName>Polybus</persName>
@@ -144,6 +173,7 @@
          <person xml:id="pers034">
             <persName>Eurycleia</persName>
             <birth><placeName>Ithaca</placeName></birth>
+            <occupation type="#org008">serving maid</occupation>
          </person>
          <person xml:id="pers035">
             <persName>Ops</persName>
@@ -161,10 +191,10 @@
       <listRelation>
          <relation name="parent" active="#pers003 #pers007" passive="#pers002"></relation>
          <relation name="spouse" mutual="#pers003 #pers007"></relation>
-         <relation name="parent" active="#pers010" passive="#pers001 #pers004 #pers005 #pers015"></relation>
+         <relation name="parent" active="#pers006" passive="#pers001 #pers004 #pers005 #pers015"></relation>
          <relation name="cousin" mutual="#pers011 #pers012"></relation>
          <relation name="parent" active="#pers012 #pers014" passive="#pers013"></relation>
-         <relation name="parent" active="#pers016" passive="#org009 #pers010"></relation>
+         <relation name="parent" active="#pers016" passive="#org009 #pers006"></relation>
          <relation name="parent" active="#pers017" passive="#pers008"></relation>
          <relation name="parent" active="#pers009" passive="#pers018 #org004"></relation>
          <relation name="parent" active="#pers019" passive="#pers018"></relation>
