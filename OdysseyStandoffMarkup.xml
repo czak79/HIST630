@@ -158,6 +158,27 @@
             <birth><placeName>Ithaca</placeName></birth>
          </person>
       </listPerson>
+      <listRelation>
+         <relation name="parent" active="#pers003 #pers007" passive="#pers002"></relation>
+         <relation name="spouse" mutual="#pers003 #pers007"></relation>
+         <relation name="parent" active="#pers010" passive="#pers001 #pers004 #pers005 #pers015"></relation>
+         <relation name="cousin" mutual="#pers011 #pers012"></relation>
+         <relation name="parent" active="#pers012 #pers014" passive="#pers013"></relation>
+         <relation name="parent" active="#pers016" passive="#org009 #pers010"></relation>
+         <relation name="parent" active="#pers017" passive="#pers008"></relation>
+         <relation name="parent" active="#pers009" passive="#pers018 #org004"></relation>
+         <relation name="parent" active="#pers019" passive="#pers018"></relation>
+         <relation name="parent" active="#pers020" passive="#pers019"></relation>
+         <relation name="parent" active="#pers023" passive="#pers021"></relation>
+         <relation name="parent" active="#pers024" passive="#pers003"></relation>
+         <relation name="parent" active="#pers027" passive="#pers007"></relation>
+         <relation name="parent" active="#pers030" passive="#pers031"></relation>
+         <relation name="parent" active="#pers033" passive="#pers032"></relation>
+         <relation name="parent" active="#pers035" passive="#pers034"></relation>
+         <relation name="parent" active="#pers036" passive="#pers035"></relation>
+         <relation name="spouse" mutual="#pers024 #pers037"></relation>
+         <relation name="employer" active="#pers002 #pers003 #pers007 #pers024" passive="#pers022 #pers034 #org006 #org007 #org008"></relation>
+      </listRelation>
       <listPlace>
          <place xml:id="place001">
             <placeName>Troy</placeName>
