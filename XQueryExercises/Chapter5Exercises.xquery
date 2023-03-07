@@ -110,12 +110,23 @@ return fn:concat($n, ". ", $book/text()):)
 
 (:Question 6:)
 
-for $book in $books/book
+(:for $book in $books/book
 order by $book/@date descending, $book/text()
 group by $date := $book/@date
 return 
     <book published ="{$date}">
         {$book}
-        </book>
+        </book>:)
         
 (:Question 7:)
+
+(:let $names := ("Abigail", "Alondra", "Claire", "Kristen", "Lindsey", "Margaret", "Patrick", "Regan", "Tristan", "Lauren", "Dan")
+let $phrase := ("Abigail", "Alondra", "Kristen", "Lindsey", "Margaret", "Patrick", "Regan", "Tristan", "Lauren", "Dan")
+for $name in $names
+return 
+    if (fn:contains($name, $phrase)) then 
+        "Hello"
+    else
+        "Hola":)
+        
+(:Question 8:)
