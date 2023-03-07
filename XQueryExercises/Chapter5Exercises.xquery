@@ -130,3 +130,8 @@ return
         "Hola":)
         
 (:Question 8:)
+
+(:for $date in $books/book
+return 
+if ($date gt 2000) then "new"
+else "old":)
