@@ -2,9 +2,18 @@ xquery version "3.1";
 
 (:Question 1:)
 
-(:declare namespace tei = "http://www.tei-c.org/ns/1.0";
+(:declare namespace tei = "http://www.tei-c.org/ns/1.0";:)
 
-<tei:placeName/>:)
+(:<tei:title>
+    {fn:concat("Harry Potter", ": ", "and the Sorcer's Stone")}
+</tei:title>:)
+
+(:declare variable $title := "There And Back Again";
+declare variable $subtitle:= " : A Hobbit's Tale";
+
+<tei:title>
+    {fn:concat($title, $subtitle)}
+</tei:title>:)
 
 (:Question 2:)
 
@@ -19,99 +28,79 @@ return fn:concat("Hello", " ", $name, "!"):)
 
 (:Question 4:)
 
-(:declare context item := document {
-<books>
-<book>
-    <title>Primo Levi: The Matter of Life</title>
-    <author>Berel Lang</author>
-    <date year="2013">November 26, 2013</date>
-    <publisher>
-        <city>New Haven</city>
-        <press>Yale University Press</press>
-    </publisher>
-    <identifier type="ISBN-10">0300137230</identifier>
-    <identifier type="ISBN-13">978-0300137231</identifier>
-</book>
+(:declare context item := fn:doc("https://raw.githubusercontent.com/dlschwartz/sandbox/master/XQ4HumBooks.xml");:)
+(:let $books := books/book
+return $books/title:)
 
-<book>
-    <title>Women at War in the Classical World</title>
-    <author>Paul Chrystal</author>
-    <date year="2017">2017</date>
-    <publisher>
-        <city>Barnsley</city>
-        <press>Pen and Sword Military</press>
-    </publisher>
-    <identifier type="ISBN-13">978-1-47385-660-8</identifier>
-</book>
-<book>
-    <title>Greek Insects</title>
-    <author>Malcom Davies and Jeyaraney Kathirithamby</author>
-    <date year="1986">1986</date>
-    <publisher>
-        <city>Oxford and New York</city>
-        <press>Oxford University Press</press>
-    </publisher>
-    <identifier type="ISBN-10">0-19-520548-0</identifier>
-</book>
-<book>
-    <title>The Oxford Handbook of Maritime Archaeology</title>
-    <author>Alexis Catsambis, Ben Ford, Donny L. Hamilton</author>
-    <date year="2011">2011</date>
-    <publisher>
-        <city>Oxford</city>
-        <press>Oxford University Press</press>
-    </publisher>
-    <identifier type="ISBN-13">978-0-19-933600-5</identifier>
-</book>
-<book>    <title>The Iliad</title>
-    <author>Homer</author>
-    <date year="1990">1990</date>
-       <publisher>
-            <city>New York</city>
-            <press>Penguin Classics</press>
-       </publisher>
-       <identifier type="ISBN-10">0-14-027536-3</identifier>
-</book>
-</books>
-};
 
-let $books := $books/book
-for $title in $books/title
-return fn:concat(author, date, title, publisher/city, ":", publisher/press)
-where $title = ("Women")
-for $title in $book[fn:contains("Women"):)
+(:Supposedly able to put file name or file path or website link but file cannot be an xquery document, must be an xml document:)
+
+(:declare context item := document;
+
+let $books := books/book
+return $books/title:)
+
+(:for $book in books/book
+
+where fn:contains ($book/title, "Histor")
+where fn:contains($book/date, "2013")
+
+    let $author := $book/author
+    let $title := $book/title
+    let $press := $book/publisher/press
+    let $date := $book/date
+return 
+    <bibl>
+        {fn:concat($author, ". ", $title, ". ", $press, ". ", $date) }
+    </bibl>:)
+
+(:for $book in $books/book [fn:contains(title, "Histor")]:) (:this goes on the first line:)
+
+(:for $book in books/book
+    let $author := $book/author
+    let $title := $book/title
+    let $press := $book/publisher/press
+    let $date := $book/date
+order by $author
+return $book:)
+
+(:let $books in books/book
+for $book in $books
+order by $title
+return $book:)
+
+(:let $books in books/book
+for $book in $books
+order by $date
+return $book:)
 
 (:let $books := $books/book
-for $book in $books
-order by $book/@author descending
-return $book
-
-let $books := $books/book
-for $book in $books
-order by $book/@title descending
-return $book
-
-let $books := $books/book
-for $book in $books
-order by $book/@date descending
-return $book
-
-let $books := $books/book
 for $book in $books
 order by $book/@date ascending 
 return $book:)
 
 (:Question 5:)
 
-(:for $book in $list/book
-order by $book/text()
-count $n
-return fn:concat($n, ". ", $book/text()):)
+(:for $book at $n in books/book
+    let $author := $book/author
+    let $title := $book/title
+    let $press := $book/publisher/press
+    let $date := $book/date
+return 
+    <bibl n="{$n}>
+        {fn:concat($author, ". ", $title, ". ", $press, ". ", $date) }
+    </bibl>:)
 
 (:Question 6:)
 
-(:for $book in $books/book
-order by $book/@date descending, $book/text()
+(:for $book at $n in books/book
+let $year := $book/date/@year
+group by $year
+order by $year descending
+return 
+<book published="{$year}"></book>:)
+
+(:order by $book/@date descending, $book/text()
 group by $date := $book/@date
 return 
     <book published ="{$date}">
@@ -121,17 +110,24 @@ return
 (:Question 7:)
 
 (:let $names := ("Abigail", "Alondra", "Claire", "Kristen", "Lindsey", "Margaret", "Patrick", "Regan", "Tristan", "Lauren", "Dan")
-let $phrase := ("Abigail", "Alondra", "Kristen", "Lindsey", "Margaret", "Patrick", "Regan", "Tristan", "Lauren", "Dan")
 for $name in $names
 return 
-    if (fn:contains($name, $phrase)) then 
-        "Hello"
+   <greetings>
+   {if ($name eq "Claire") then 
+        fn:concat("Hola ", $name)
     else
-        "Hola":)
+        fn:concat("Hello!", $name) }
+   </greetings>:)
         
 (:Question 8:)
 
-(:for $date in $books/book
+declare context item := fn:doc("https://raw.githubusercontent.com/dlschwartz/sandbox/master/XQ4HumBooks.xml");
+for $book in books/book
+    let $type :=
+        if (xs:integer($book/date/year) lt 2000) then "old"
+        else "new"
+    group by $type
 return 
-if ($date gt 2000) then "new"
-else "old":)
+    <bucket type="{$type}">
+        {$book/title}
+    </bucket>
