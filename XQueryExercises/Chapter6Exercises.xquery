@@ -6,8 +6,9 @@ xquery version "3.1";
 
 (:Question 4:)
 
-(:fn:head(("Shinpei Goto", "Gentarō Kodama", "Kenjirō Den")):)
-(:fn:tail(("Shinpei Goto", "Gentarō Kodama", "Kenjirō Den")):)
+(:fn:head(("Shinpei Gotō", "Gentarō Kodama", "Kenjirō Den")):)
+(:fn:tail(("Shinpei Gotō", "Gentarō Kodama", "Kenjirō Den")):)
 
 (:Question 5:)
-declare function local:construct-engligh-list("Shinpei Goto, ", "Gentarō Kodama, ", ", and " "Kenjirō Den")
+
+declare function local:construct-engligh-list("Shinpei Gotō, ", "Gentarō Kodama, ", ", and " "Kenjirō Den")

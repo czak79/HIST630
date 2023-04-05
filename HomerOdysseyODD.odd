@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD File for Homer's Odyssey</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Claire Zak, Texas A&amp;M University</publisher>
+        <availability>
+          <p>This is an open access work licensed under a Creative Commons Attribution 4.0 International license.</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born Digital</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="oddex1" start="TEI">
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="namesdates"/>
+        <elementSpec module="namesdates" ident="persName" mode="change">
+          <attList>
+            <attDef ident="type" mode="change" usage="opt">
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed" mode="change">
+                <valItem ident="deity"></valItem>
+                <valItem ident="author"></valItem>
+                <valItem ident="translator"></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+      
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
