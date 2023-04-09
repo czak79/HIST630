@@ -51,9 +51,9 @@
   </teiHeader>
   <text>
      <front>
-        <docAuthor> <persName type= "author">HOMER</persName> </docAuthor>
-           <docTitle> <titlePart type="main">THE ODYSSEY</titlePart> </docTitle>
-        <byline> TRANSLATED BY <persName type= "translator">Robert Fagles</persName> </byline>
+        <docAuthor rend="allCaps"> <persName type= "author">HOMER</persName> </docAuthor>
+           <docTitle rend="allCaps"> <titlePart type="main">THE ODYSSEY</titlePart> </docTitle>
+        <byline rend="allCaps"> TRANSLATED BY <persName type= "translator">Robert Fagles</persName> </byline>
      </front>
       <body>
          <div>

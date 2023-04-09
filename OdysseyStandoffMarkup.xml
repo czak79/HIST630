@@ -30,12 +30,12 @@
          </person>
          <person xml:id="pers002">
             <persName>Telemachus</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
             <occupation>prince</occupation>
          </person>
          <person xml:id="pers003">
             <persName>Odysseus</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
             <affiliation type="#org005"></affiliation>
             <affiliation type="#org009"></affiliation>
             <occupation>king</occupation>
@@ -54,7 +54,7 @@
          </person>
          <person xml:id="pers007">
             <persName>Penelope</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
          </person>
          <person xml:id="pers008" role="deity">
             <persName>Calypso</persName>
@@ -70,21 +70,21 @@
          </person>
          <person xml:id="pers011">
             <persName>Aegisthus</persName>
-            <birth><placeName>Mycenae</placeName></birth>
+            <birth><placeName ref="#place003">Mycenae</placeName></birth>
          </person>
          <person xml:id="pers012">
             <persName>Agamemnon</persName>
-            <birth><placeName>Mycenae</placeName></birth>
+            <birth><placeName ref="#place003">Mycenae</placeName></birth>
             <occupation>king</occupation>
          </person>
          <person xml:id="pers013">
             <persName>Orestes</persName>
-            <birth><placeName>Mycenae</placeName></birth>
+            <birth><placeName ref="#place003">Mycenae</placeName></birth>
             <occupation>prince</occupation>
          </person>
          <person xml:id="pers014">
             <persName>Clytemnestra</persName>
-            <birth><placeName>Sparta</placeName></birth>
+            <birth><placeName ref="#place005">Sparta</placeName></birth>
          </person>
          <person xml:id="pers015" role="deity">
             <persName>Hermes</persName>
@@ -112,20 +112,20 @@
          </person>
          <person xml:id="pers021">
             <persName>Mentes</persName>
-            <birth><placeName>Taphos</placeName></birth>
+            <birth><placeName ref="#place017">Taphos</placeName></birth>
          </person>
          <person xml:id="pers022">
             <persName>Phemius</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
             <occupation>bard</occupation>
          </person>
          <person xml:id="pers023">
             <persName>Anchialus</persName>
-            <birth><placeName>Taphos</placeName></birth>
+            <birth><placeName ref="#place017">Taphos</placeName></birth>
          </person>
          <person xml:id="pers024">
             <persName>Laertes</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
          </person>
          <person xml:id="pers025">
             <persName>Ilus</persName>
@@ -135,18 +135,18 @@
          </person>
          <person xml:id="pers027">
             <persName>Icarius</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
          </person>
          <person xml:id="pers028">
             <persName>Nestor</persName>
-            <birth><placeName>Pylos</placeName></birth>
+            <birth><placeName ref="#place006">Pylos</placeName></birth>
             <affiliation type="#org005"></affiliation>
             <affiliation type="#org009"></affiliation>
             <occupation>king</occupation>
          </person>
          <person xml:id="pers029">
             <persName>Menelaus</persName>
-            <birth><placeName>Sparta</placeName></birth>
+            <birth><placeName ref="#place005">Sparta</placeName></birth>
             <affiliation>Spartans</affiliation>
             <affiliation type="#org005"></affiliation>
             <affiliation type="#org009"></affiliation>
@@ -154,38 +154,38 @@
          </person>
          <person xml:id="pers030">
             <persName>Euphithes</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
          </person>
          <person xml:id="pers031">
             <persName>Antinous</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
             <affiliation type="#org002">suitors</affiliation>
          </person>
          <person xml:id="pers032">
             <persName>Eurymachus</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
             <affiliation type="#org002">suitors</affiliation>
          </person>
          <person xml:id="pers033">
             <persName>Polybus</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
          </person>
          <person xml:id="pers034">
             <persName>Eurycleia</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
             <occupation type="#org008">serving maid</occupation>
          </person>
          <person xml:id="pers035">
             <persName>Ops</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
          </person>
          <person xml:id="pers036">
             <persName>Pisenor</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
          </person>
          <person xml:id="pers037">
             <persName>Laertes' wife</persName>
-            <birth><placeName>Ithaca</placeName></birth>
+            <birth><placeName ref="#place002">Ithaca</placeName></birth>
          </person>
       </listPerson>
       <listRelation>
