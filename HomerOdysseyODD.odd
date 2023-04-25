@@ -43,7 +43,7 @@
           <constraintSpec ident="ref-on-persName" scheme="schematron">
             <constraint>
               <sch:rule context="tei:persName">
-                <sch:let name="personRef" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+                <sch:let name="personRef" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
                 <sch:let name="personIDs"
                   value="$personRef//tei:person/@xml:id"/>
                 <sch:let name="error" value ="."/>
@@ -59,7 +59,7 @@
           <constraintSpec ident="ref-on-placeName" scheme="schematron">
             <constraint>
               <sch:rule context="tei:placeName">
-                <sch:let name="placeRef" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+                <sch:let name="placeRef" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
                 <sch:let name="placeIDs"
                   value="$placeRef//tei:place/@xml:id"/>
                 <sch:let name="error" value ="."/>
@@ -75,7 +75,7 @@
         <constraintSpec ident="ref-on-orgName" scheme="schematron">
           <constraint>
             <sch:rule context="tei:orgName">
-              <sch:let name="orgRef" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+              <sch:let name="orgRef" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
               <sch:let name="orgIDs"
                 value="$orgRef//tei:organization/@xml:id"/>
               <sch:let name="error" value ="."/>

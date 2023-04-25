@@ -9,18 +9,20 @@
         </sch:rule>
        
         <sch:rule context="tei:persName/@ref">
-            <sch:let name="personRef" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+            <sch:let name="standoff" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
              <sch:let name="personIDs"
-                    value="$personRef//tei:person/@xml:id"/>
+                    value="$standoff//tei:person/@xml:id"/>
+            <sch:let name="persRef" value="for $i in $personIDs return concat('#', $i)"></sch:let>
             <sch:let name="error" value ="."/>
-            <sch:assert test=" every $i in (tokenize(., ' ')) satisfies $i = $personIDs" role="warning">
+            <sch:assert test=". = $persRef" role="warning">
+                <!--  every $i in (tokenize(., ' ')) satisfies $i = $personIDs" role="warning">-->
                 <!--could do (tokenize(., ' ')) for multiple instances of the thing like multiple events in a row but we really don't need it here since there aren't multiple-->
                 <sch:value-of select="$error"/> is not currently in use.
             </sch:assert>        
         </sch:rule>
         
         <!--<sch:rule context="tei:persName">
-            <sch:let name="standoff" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+            <sch:let name="standoff" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
             <sch:let name="personIDs"
                     value="$standoff//person/@xml:id"/>
             <sch:let name="error" value="."/>
@@ -32,21 +34,23 @@
         </sch:rule>-->
        
         <sch:rule context="tei:placeName/@ref">
-            <sch:let name="placeRef" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+            <sch:let name="standoff" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
             <sch:let name="placeIDs"
-                value="$placeRef//tei:place/@xml:id"/>
+                value="$standoff//tei:place/@xml:id"/>
+            <sch:let name="placeRef" value="for $i in $placeIDs return concat('#', $i)"></sch:let>
             <sch:let name="error" value ="."/>
-            <sch:assert test=" every $i in (tokenize(., ' ')) satisfies $i = $placeIDs" role="warning">
+            <sch:assert test=". = $placeRef" role="warning">
                 <sch:value-of select="$error"/> is not currently in use.
             </sch:assert>        
         </sch:rule>
        
         <sch:rule context="tei:orgName/@ref">
-            <sch:let name="orgRef" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+            <sch:let name="standoff" value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
             <sch:let name="orgIDs"
-                value="$orgRef//tei:organization/@xml:id"/>
+                value="$standoff//tei:org/@xml:id"/>
+            <sch:let name="orgRef" value="for $i in $orgIDs return concat('#', $i)"></sch:let>
             <sch:let name="error" value ="."/>
-            <sch:assert test=" every $i in (tokenize(., ' ')) satisfies $i = $orgIDs" role="warning">
+            <sch:assert test=". = $orgRef" role="warning">
                 <sch:value-of select="$error"/> is not currently in use.
             </sch:assert>        
         </sch:rule>

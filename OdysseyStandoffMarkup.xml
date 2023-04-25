@@ -261,6 +261,9 @@
          <place xml:id="place017">
             <placeName>Taphos</placeName>
          </place>
+         <place xml:id="place018">
+            <placeName>Achaea</placeName>
+         </place>
       </listPlace>
       <listOrg>
          <org xml:id="org001">
