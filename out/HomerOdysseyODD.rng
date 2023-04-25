@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-04-09T01:17:22Z. .
+Schema generated from ODD source 2023-04-25T19:17:32Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -449,10 +449,8 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddex1-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@when]">
          <sch:report test="@notBefore|@notAfter|@from|@to" role="nonfatal">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
@@ -461,10 +459,8 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddex1-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@from]">
          <sch:report test="@notBefore" role="nonfatal">The @from and @notBefore attributes cannot be used together.</sch:report>
@@ -473,10 +469,8 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddex1-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@to]">
          <sch:report test="@notAfter" role="nonfatal">The @to and @notAfter attributes cannot be used together.</sch:report>
@@ -504,10 +498,8 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddex1-att.datable-calendar-calendar-constraint-rule-4">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@calendar]">
          <sch:assert test="string-length(.) gt 0"> @calendar indicates one or more systems or calendars to
@@ -1073,10 +1065,8 @@ Suggested values include: 1] m (metre); 2] kg (kilogram); 3] s (second); 4] Hz (
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddex1-att.measurement-att-measurement-unitRef-constraint-rule-5">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@unitRef]">
          <sch:report test="@unit" role="info">The @unit attribute may be unnecessary when @unitRef is present.</sch:report>
@@ -1197,10 +1187,8 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddex1-att.typed-subtypeTyped-constraint-rule-6">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@subtype]">
          <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
@@ -1229,10 +1217,8 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddex1-att.pointing-targetLang-targetLang-constraint-rule-7">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
          <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
@@ -1322,10 +1308,8 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddex1-att.spanning-spanTo-spanTo-2-constraint-rule-8">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@spanTo]">
          <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
@@ -1367,10 +1351,8 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddex1-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-9">
       <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@schemeVersion]">
          <sch:assert test="@scheme and not(@scheme = 'free')">
@@ -3419,10 +3401,8 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-p-abstractModel-structure-p-constraint-report-5">
             <rule context="tei:p">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
         Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
       </report>
@@ -3431,10 +3411,8 @@ Suggested values include: 1] page; 2] column; 3] line; 4] book; 5] poem; 6] cant
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-p-abstractModel-structure-l-constraint-report-6">
             <rule context="tei:p">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="(ancestor::tei:l or ancestor::tei:lg) and not(parent::tei:figure or parent::tei:note or ancestor::tei:floatingText)">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.
       </report>
@@ -3637,11 +3615,8 @@ Suggested values include: 1] spoken (spoken); 2] thought (thought); 3] written (
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-desc-deprecationInfo-only-in-deprecated-constraint-rule-10">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:desc[ @type eq 'deprecationInfo']">
                <sch:assert test="../@validUntil">Information about a
         deprecation should only be present in a specification element
@@ -3736,11 +3711,8 @@ Suggested values include: 1] deprecationInfo (deprecation information)</a:docume
                   id="oddex1-rt-target-rt-target-not-span-constraint-report-7">
             <rule context="tei:rt/@target">
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           xmlns:svg="http://www.w3.org/2000/svg"
-                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="../@from | ../@to">When target= is
             present, neither from= nor to= should be.</sch:report>
             </rule>
@@ -3755,11 +3727,8 @@ Suggested values include: 1] deprecationInfo (deprecation information)</a:docume
                   id="oddex1-rt-from-rt-from-constraint-assert-7">
             <rule context="tei:rt/@from">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           xmlns:svg="http://www.w3.org/2000/svg"
-                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="../@to">When from= is present, the to=
             attribute of <sch:name/> is required.</sch:assert>
             </rule>
@@ -3774,11 +3743,8 @@ Suggested values include: 1] deprecationInfo (deprecation information)</a:docume
                   id="oddex1-rt-to-rt-to-constraint-assert-8">
             <rule context="tei:rt/@to">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           xmlns:svg="http://www.w3.org/2000/svg"
-                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="../@from">When to= is present, the from=
             attribute of <sch:name/> is required.</sch:assert>
             </rule>
@@ -4216,10 +4182,8 @@ Sample values include: 1] suspension (suspension); 2] contraction (contraction);
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-ptr-ptrAtts-constraint-report-8">
             <rule context="tei:ptr">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="@target and @cRef">Only one of the
 attributes @target and @cRef may be supplied on <name/>.</report>
             </rule>
@@ -4240,10 +4204,8 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-ref-refAtts-constraint-report-9">
             <rule context="tei:ref">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="@target and @cRef">Only one of the
 	attributes @target' and @cRef' may be supplied on <name/>
                </report>
@@ -4313,11 +4275,8 @@ attributes @target and @cRef may be supplied on <name/>.</report>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-list-gloss-list-must-have-labels-constraint-rule-11">
             <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:list[@type='gloss']">
                <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
             </sch:rule>
@@ -5010,20 +4969,14 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
                   id="oddex1-relatedItem-targetorcontent1-constraint-report-10">
             <rule context="tei:relatedItem">
                <sch:report xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           xmlns:svg="http://www.w3.org/2000/svg"
-                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="@target and count( child::* ) &gt; 0">
 If the @target attribute on <sch:name/> is used, the
 relatedItem element must be empty</sch:report>
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           xmlns:svg="http://www.w3.org/2000/svg"
-                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="@target or child::*">A relatedItem element should have either a 'target' attribute
         or a child element to indicate the related bibliographic item</sch:assert>
             </rule>
@@ -5054,10 +5007,8 @@ relatedItem element must be empty</sch:report>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-l-abstractModel-structure-l-constraint-report-11">
             <rule context="tei:l">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="ancestor::tei:l[not(.//tei:note//tei:l[. = current()])]">
         Abstract model violation: Lines may not contain lines or lg elements.
       </report>
@@ -5106,11 +5057,8 @@ relatedItem element must be empty</sch:report>
                   id="oddex1-lg-atleast1oflggapl-constraint-assert-11">
             <rule context="tei:lg">
                <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:math="http://www.w3.org/1998/Math/MathML"
                            xmlns:rng="http://relaxng.org/ns/structure/1.0"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           xmlns:svg="http://www.w3.org/2000/svg"
-                           xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) &gt; 0">An lg element
         must contain at least one child l, lg, or gap element.</sch:assert>
             </rule>
@@ -5118,10 +5066,8 @@ relatedItem element must be empty</sch:report>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-lg-abstractModel-structure-l-constraint-report-12">
             <rule context="tei:lg">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="ancestor::tei:l[not(.//tei:note//tei:lg[. = current()])]">
         Abstract model violation: Lines may not contain line groups.
       </report>
@@ -5811,9 +5757,8 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-quotation-quotationContents-constraint-report-13">
             <rule context="tei:quotation">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="not(@marks) and not (tei:p)">
 On <name/>, either the @marks attribute should be used, or a paragraph of description provided</report>
@@ -6076,9 +6021,8 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-citeStructure-delim-citestructure-inner-delim-constraint-rule-12">
-            <rule xmlns:math="http://www.w3.org/1998/Math/MathML"
-                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  xmlns:svg="http://www.w3.org/2000/svg"
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                   xmlns:xi="http://www.w3.org/2001/XInclude"
                   context="tei:citeStructure[parent::tei:citeStructure]">
                <assert test="@delim">A <name/> with a parent <name/> must have a @delim attribute.</assert>
@@ -6090,9 +6034,8 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
          </attribute>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-citeStructure-match-citestructure-outer-match-constraint-rule-13">
-            <rule xmlns:math="http://www.w3.org/1998/Math/MathML"
-                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  xmlns:svg="http://www.w3.org/2000/svg"
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                   xmlns:xi="http://www.w3.org/2001/XInclude"
                   context="tei:citeStructure[not(parent::tei:citeStructure)]">
                <assert test="starts-with(@match,'/')">An XPath in @match on the outer <name/> must start with '/'.</assert>
@@ -6100,9 +6043,8 @@ Sample values include: 1] first-line; 2] first-letter; 3] before; 4] after</a:do
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-citeStructure-match-citestructure-inner-match-constraint-rule-14">
-            <rule xmlns:math="http://www.w3.org/1998/Math/MathML"
-                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                  xmlns:svg="http://www.w3.org/2000/svg"
+            <rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                   xmlns:xi="http://www.w3.org/2001/XInclude"
                   context="tei:citeStructure[parent::tei:citeStructure]">
                <assert test="not(starts-with(@match,'/'))">An XPath in @match must not start with '/' except on the outer <name/>.</assert>
@@ -6742,27 +6684,18 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
             </choice>
          </group>
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                 xmlns:svg="http://www.w3.org/2000/svg"
-                 xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="tei"
                  uri="http://www.tei-c.org/ns/1.0"/>
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                 xmlns:svg="http://www.w3.org/2000/svg"
-                 xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="xs"
                  uri="http://www.w3.org/2001/XMLSchema"/>
          <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:math="http://www.w3.org/1998/Math/MathML"
                  xmlns:rng="http://relaxng.org/ns/structure/1.0"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                 xmlns:svg="http://www.w3.org/2000/svg"
-                 xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="rng"
                  uri="http://relaxng.org/ns/structure/1.0"/>
          <ref name="att.global.attributes"/>
@@ -7049,10 +6982,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-div-abstractModel-structure-l-constraint-report-14">
             <rule context="tei:div">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="(ancestor::tei:l or ancestor::tei:lg) and not(ancestor::tei:floatingText)">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.
       </report>
@@ -7061,10 +6992,8 @@ Suggested values include: 1] sent; 2] received; 3] transmitted; 4] redirected; 5
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-div-abstractModel-structure-p-constraint-report-15">
             <rule context="tei:div">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
-                       xmlns:xi="http://www.w3.org/2001/XInclude"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        test="(ancestor::tei:p or ancestor::tei:ab) and not(ancestor::tei:floatingText)">
         Abstract model violation: p and ab may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.
       </report>
@@ -8241,6 +8170,22 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
       <element name="orgName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [13.2.2. Organizational Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="oddex1-orgName-ref-on-orgName-constraint-rule-15">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:orgName">
+               <sch:let name="orgRef"
+                        value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+               <sch:let name="orgIDs" value="$orgRef//tei:organization/@xml:id"/>
+               <sch:let name="error" value="."/>
+               <sch:assert test=" @ref = $orgIDs" role="warning">
+                  <sch:value-of select="$error"/> is not currently in use.
+              </sch:assert>
+            </sch:rule>
+         </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.datable.attributes"/>
          <ref name="att.editLike.attributes"/>
@@ -8253,6 +8198,22 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
       <element name="persName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="oddex1-persName-ref-on-persName-constraint-rule-16">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:persName">
+               <sch:let name="personRef"
+                        value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+               <sch:let name="personIDs" value="$personRef//tei:person/@xml:id"/>
+               <sch:let name="error" value="."/>
+               <sch:assert test=" @ref = $personIDs" role="warning">
+                  <sch:value-of select="$error"/> is not currently in use.
+                </sch:assert>
+            </sch:rule>
+         </pattern>
          <ref name="att.global.attributes"/>
          <ref name="att.datable.attributes"/>
          <ref name="att.editLike.attributes"/>
@@ -8337,6 +8298,22 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
       <element name="placeName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(place name) contains an absolute or relative place name. [13.2.3. Place Names]</a:documentation>
          <ref name="macro.phraseSeq"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="oddex1-placeName-ref-on-placeName-constraint-rule-17">
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      xmlns:xi="http://www.w3.org/2001/XInclude"
+                      context="tei:placeName">
+               <sch:let name="placeRef"
+                        value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml?token=GHSAT0AAAAAACBAGFCJYMDCD5TZREJVCZFIZBVY6JA')"/>
+               <sch:let name="placeIDs" value="$placeRef//tei:place/@xml:id"/>
+               <sch:let name="error" value="."/>
+               <sch:assert test=" @ref = $placeIDs" role="warning">
+                  <sch:value-of select="$error"/> is not currently in use.
+                </sch:assert>
+            </sch:rule>
+         </pattern>
          <ref name="att.datable.attributes"/>
          <ref name="att.editLike.attributes"/>
          <ref name="att.global.attributes"/>
@@ -9336,11 +9313,10 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
             <ref name="desc"/>
          </optional>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddex1-relation-reforkeyorname-constraint-assert-15">
+                  id="oddex1-relation-reforkeyorname-constraint-assert-18">
             <rule context="tei:relation">
-               <assert xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
+               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="@ref or @key or @name">One of the attributes  'name', 'ref' or 'key' must be supplied</assert>
             </rule>
@@ -9348,9 +9324,8 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-relation-activemutual-constraint-report-16">
             <rule context="tei:relation">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="@active and @mutual">Only one of the attributes @active and @mutual may be supplied</report>
             </rule>
@@ -9358,9 +9333,8 @@ Sample values include: 1] e (e); 2] he (he); 3] she (she); 4] they (they)</a:doc
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-relation-activepassive-constraint-report-17">
             <rule context="tei:relation">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="@passive and not(@active)">the attribute 'passive' may be supplied only if the attribute 'active' is supplied</report>
             </rule>
@@ -9711,9 +9685,8 @@ Sample values include: 1] atBirth; 2] atDeath; 3] dependent; 4] inherited; 5] in
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddex1-objectIdentifier-objectIdentifier_minimal-constraint-report-18">
             <rule context="tei:objectIdentifier">
-               <report xmlns:math="http://www.w3.org/1998/Math/MathML"
-                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:svg="http://www.w3.org/2000/svg"
+               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="not(count(*) gt 0)">An objectIdentifier must contain at minimum a single piece of locating or identifying information.</report>
             </rule>
