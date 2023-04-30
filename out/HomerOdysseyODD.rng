@@ -5,7 +5,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-04-25T19:59:41Z. .
+Schema generated from ODD source 2023-04-25T20:59:16Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -8176,12 +8176,13 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
-                      context="tei:orgName">
-               <sch:let name="orgRef"
+                      context="tei:orgName/@ref">
+               <sch:let name="standoff"
                         value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
-               <sch:let name="orgIDs" value="$orgRef//tei:organization/@xml:id"/>
+               <sch:let name="orgIDs" value="$standoff//tei:org/@xml:id"/>
+               <sch:let name="orgRef" value="for $i in $orgIDs return concat('#', $i)"/>
                <sch:let name="error" value="."/>
-               <sch:assert test=" @ref = $orgIDs" role="warning">
+               <sch:assert test=". = $orgRef" role="warning">
                   <sch:value-of select="$error"/> is not currently in use.
               </sch:assert>
             </sch:rule>
@@ -8204,12 +8205,13 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
-                      context="tei:persName">
-               <sch:let name="personRef"
+                      context="tei:persName/@ref">
+               <sch:let name="standoff"
                         value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
-               <sch:let name="personIDs" value="$personRef//tei:person/@xml:id"/>
+               <sch:let name="personIDs" value="$standoff//tei:person/@xml:id"/>
+               <sch:let name="persRef" value="for $i in $personIDs return concat('#', $i)"/>
                <sch:let name="error" value="."/>
-               <sch:assert test=" @ref = $personIDs" role="warning">
+               <sch:assert test=". = $persRef" role="warning">
                   <sch:value-of select="$error"/> is not currently in use.
                 </sch:assert>
             </sch:rule>
@@ -8304,12 +8306,13 @@ Suggested values include: 1] main (main); 2] sub (subordinate); 3] alt (alternat
                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
-                      context="tei:placeName">
-               <sch:let name="placeRef"
+                      context="tei:placeName/@ref">
+               <sch:let name="standoff"
                         value="doc('https://raw.githubusercontent.com/czak79/HIST630/main/OdysseyStandoffMarkup.xml')"/>
-               <sch:let name="placeIDs" value="$placeRef//tei:place/@xml:id"/>
+               <sch:let name="placeIDs" value="$standoff//tei:place/@xml:id"/>
+               <sch:let name="placeRef" value="for $i in $placeIDs return concat('#', $i)"/>
                <sch:let name="error" value="."/>
-               <sch:assert test=" @ref = $placeIDs" role="warning">
+               <sch:assert test=". = $placeRef" role="warning">
                   <sch:value-of select="$error"/> is not currently in use.
                 </sch:assert>
             </sch:rule>
