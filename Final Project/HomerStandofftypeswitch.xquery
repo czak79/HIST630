@@ -24,15 +24,17 @@ declare function local:transform($nodes as node()*) {
             case element (tei:listPlace) return <div><h1>Places</h1>{local:transform($node/node())}</div>
             case element (tei:person) return <div><h2 class="namedEntity"><a id="{$node/@xml:id}">{local:transform($node/tei:persName/node())}</a></h2>{local:transform($node/node())}</div>
             case element (tei:place) return <div><h2 class="namedEntity"><a id="{$node/@xml:id}">{local:transform($node/tei:placeName/node())}</a></h2>{local:transform($node/node())}</div>
-            (:case element (tei:persName) return 
+            case element (tei:persName) return 
                 <a href="{$node/@ref}">{local:transform($node/node())}</a>
             case element (tei:placeName) return 
-                <a href="{$node/@ref}">{local:transform($node/node())}</a>:)            
-            case element (tei:gender) return <p>Gender: {local:transform($node/node()) }</p>
-            case element (tei:death)  return <p>Death date: {local:transform($node/node()) }</p>
-            case element (tei:floruit) return <p>Floruit: {local:transform($node/node()) }</p>
+                <a href="{$node/@ref}">{local:transform($node/node())}</a>          
+            case element (tei:birth) return <p>Birthplace: {local:transform($node/node()) }</p>
             case element (tei:occupation) return <p>Occupation: {local:transform($node/node()) }</p>
-            case element (tei:desc) return <p>Description: {local:transform($node/node()) }</p>
+            case element (tei:affiliation) return <p>Affiliation: {local:transform($node/node())}</p>
+            case element (tei:age) return <p>Age: {local:transform($node/node()) }</p>
+            case element (tei:listRelation) return <div><h1>Relationships</h1>{local:transform($node/node())}</div>
+            case element (tei:relation) return <div><h2 class="namedEntity"><a id="{$node/@xml:id}">{local:transform($node/tei:persName/node())}</a></h2>{local:transform($node/node())}</div>
+
             default return ()
 };
 

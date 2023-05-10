@@ -37,6 +37,12 @@
               </valList>
             </attDef>
           </attList>
+          <exemplum>
+            <eg>Sing to me of the man, Muse, the man of twists and turns ...</eg>
+          </exemplum>
+          <remarks>
+            <p>In this example, the name "Muse" would be put into a persName element followed by an attribute with the type "deity" since the Muses in Greek mythology are goddesses.</p>
+          </remarks>
         </elementSpec>
        
         <elementSpec ident="persName" module="namesdates" mode="change">
@@ -54,6 +60,12 @@
               </sch:rule>
             </constraint>
           </constraintSpec>
+          <exemplum>
+            <eg>Sing to me of the man, Muse, the man of twists and turns ...</eg>
+          </exemplum>
+          <remarks>
+            <p>In this example, the name "Muse" would be associated with a reference ID associated only with Muse. These values are listed in the standoff markup.</p>
+          </remarks>
         </elementSpec>
         
         <elementSpec ident="placeName" module="namesdates" mode="change">
@@ -71,6 +83,12 @@
               </sch:rule>
             </constraint>
           </constraintSpec>
+          <exemplum>
+            <eg>the hallowed heights of Troy</eg>
+          </exemplum>
+          <remarks>
+            <p>In this example, the place name "Troy" would be associated with a reference ID associated only with that city. These values are listed in the standoff markup.</p>
+          </remarks>
         </elementSpec>
       
       <elementSpec ident="orgName" module="namesdates" mode="change">
@@ -88,6 +106,12 @@
             </sch:rule>
           </constraint>
         </constraintSpec>
+        <exemplum>
+          <eg>But now Poseidon had gone to visit the Ethiopians worlds away</eg>
+        </exemplum>
+        <remarks>
+          <p>In this example, "Ethiopians" would be associated with a reference ID associated only with that organization. Likewise, Poseidon would be associated with a persName ID. These values are listed in the standoff markup.</p>
+        </remarks>
       </elementSpec>
         
       </schemaSpec>
