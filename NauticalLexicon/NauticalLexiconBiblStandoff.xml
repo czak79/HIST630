@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nautical Lexicon Project Standoff Markup for Bibliographic References</title>
+                <editor role="creator">Claire Zak</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information - multilingual glossary of nautical terms</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <standOff>
+        <listBibl>
+            <bibl xml:id=""> Abell, W. 1948. The Shipwright’s Tale. Cambridge: Cambridge University
+                Press. </bibl>
+            <bibl> Abrate, M. 1957. “Creta, colonia veneziana nei secoli XIII - XV.” Economia e
+                storia 4: 251-77 </bibl>
+            <bibl> Abulafia, D. 1974. “Corneto-Tarquinia and the Italian Mercantile republics: the
+                earliest evidence.” PBSR 42: 224-34. </bibl>
+            <bibl>Abulafia, D. 1976. “Dalmation Ragusa and the Norman Kingdom of Sicily.” Slavonic
+                &amp; East European Review 54: 412-28.</bibl>
+            <bibl> Abulafia, D. 1980. “Marseilles, Acre and the Mediterranean, 1200-1291.” In
+                Coinage in the Latin East: The Fourth Oxford Symposium on Coinage and Monetary
+                History, edited by P.W. Edbury and D.M. Metcalf, 19-39.Oxford: BAR International
+                Series.</bibl>
+            <bibl> Abulafia, D. 1980. “Venice and the Kingdom of Naples in the Last Years of Robert
+                the Wise 1332-1343.” PBSR 48: 186-204.</bibl>
+            <bibl> Abulafia, D. 1981. “Southern Italy and the Florentine economy, 1265-1370.”
+                Economic History Review 33: 377-88. </bibl>
+            <bibl> Abulafia, D. 1983. “The Crown and the economy under Roger II and his successors.”
+                DOP 37: 1-14.</bibl>
+            <bibl> Abulafia, D. 1983. “Sul commercio del grano siciliano nel tardo Duecento.” In La
+                società mediterranea all'epoca del Vespro: XI Congresso di Storia della Corona
+                d'Aragona, Palermo-Trapani-Erice, 23-30 aprile 1982, 5-22. Palermo: Accademia di
+                Scienze, Lettere e Arti.</bibl>
+            <bibl> Abulafia, D. 1984. “Ancona, Byzantium and the Adriatic, 1155-1173.” PBSR 52:
+                195-216.</bibl>
+            <bibl> Abulafia, D. 1985. “Catalan Merchants and the Western Mediterranean, 1236-1300:
+                Studies in the Notarial Acts of Barcelona and Sicily.” Viator 16: 209-42.</bibl>
+            <bibl> Abulafia, D. 1987. Italy, Sicily and the Mediterranean, 1100-1400. UK: Variorum
+                Reprints.</bibl>
+            <bibl> Abulafia, D. 1993. Commerce and Conquest in the Mediterranean, 1100–1500. UK:
+                Routledge.</bibl>
+            <bibl> Adelson, H.L. 60. “Early medieval trade routes.” AHR 65: 271-87.</bibl>
+            <bibl> Adler, M.N., ed. 1907. The Itinerary of Benjamin of Tudela. London.</bibl>
+            <bibl> Ahrweiler, H. 1966. Byzance et la Mer: La Marine de Guerre, la Politique et Les
+                Institutions Maritimes de Byzance aux VIIe–XVe Siècles. Paris: Presses
+                Universitaires de France.</bibl>
+            <bibl> Aistleitner, J. 1963. Wörterbuch der ugaritischen Sprache. Berlin: Akademie
+                Verlag.</bibl>
+            <bibl> Alberti, S. Diccionari castellà-català, català-castellà (Mitja). </bibl>
+            <bibl> Albion, R.G. 1926. Forests and Sea Power. Cambridge: Harvard University
+                Press.</bibl>
+            <bibl> Antoni M Alcover, A.M. and F. de B. Moll. 1930-62. Diccionari
+                català-valencià-balear, 10 vols.</bibl>
+            <bibl> Alt, A. 1945. Ägyptisch-Ugaritisches. AfO 15: 69-74.</bibl>
+            <bibl> Amit, M. 1962. “The sailors of the Athenian fleet.” Athenaeum 60: 157-78.</bibl>
+            <bibl> Anderson, R.C. 1925. “Italian naval architecture about 1445.” Mariner’s Mirror
+                11: 135-63.</bibl>
+            <bibl> Anderson, R.C. 1928. “English galleys in 1295.” Mariner’s Mirror 14:
+                220-41.</bibl>
+            <bibl> Anderson, R.C. 1945. “Jal’s ‘Memoire No. 5’ and the manuscript ‘Fabbrica di
+                Galere.’” Mariner’s Mirror 31: 160-67.</bibl>
+            <bibl> Anderson, R.C. 1962. Oared Fighting Ships: From Classical Times To The Coming Of
+                Steam. London: Argus Books.</bibl>
+            <bibl> André, J. 1964. “La résine et la poiz dans l’antiquité, technique et
+                    terminologie.” AntCl 33: 86-97
+            </bibl>
+                <bibl> Andriotes, N. 1951. ‘Ετυμολογικὸ Λεξικὸ τῡς Κοινῡς Νεοελλυνικῡς [Etymological
+                    Dictionary Of Standard Modern Greek]. 1st ed. Thessaloniki: Institute of Modern
+                    Greek Studies.</bibl>
+                <bibl> Antoniadis-Bibicou, H. 1966. Etudes d’Histoire Maritime de Byzance: a Propos
+                    du "Thème des Caravisiens". Paris: S. E. V. P. E. N.</bibl>
+                <bibl> Anonymous. 1370. Llibre del Consolat de Mar. Libro del Consulado del Mar.
+                    Consolato del Mare </bibl>
+                <bibl> Anonymous. 1967. Technical-Nautical Dictionary (Ital.-Eng., Eng.-Ital.).
+                    Genoa: Libreria Mario Bozzi.</bibl>
+                <bibl> Anonymous. 1970. Sansoni-Harrap Standard Italian and English Dictionary.
+                    London: Chambers Harrap Publishers Ltd.</bibl>
+                <bibl> Applebaum, S. 1976. “Economic life in Palestine.” In The Jewish People in the
+                    First Century, Volume 2, edited by S. Safrai, M. Stern, D. Flusser, and W.C. van
+                    Unnik, 631-700. Leiden: Brill.</bibl>
+                <bibl> Arbil, B., B. Hamilton, and D. Jacoby, ed. 1989. Latins and Greeks in the
+                    Mediterranean after 1204. UK: Routledge.</bibl>
+                <bibl> Arkell, A.J. 1959. “Early shipping in Egypt.” Antiquity 33: 52-53.</bibl>
+                <bibl> Ash, H.B., ed. 1945. Res Rustica, by Lucius Junius Moderatus Columella.
+                    Translated by H.B. Ash, Loeb Classical Library Series. Cambridge: Harvard
+                    University Press. </bibl>
+                <bibl> Ashburner, W. 1909. Nomos Rodion Nautikos: The Rhodian Sea-Law. Oxford:
+                    Clarendon Press.</bibl>
+                <bibl> Ashtor, E. 1970. “Quelques observations d’un orientaliste sur la Thèse de
+                    Pirenne.” JESHO 13: 166-94.</bibl>
+                <bibl> Ashtor, E. 1970. “Nouvelles réflexions sur la thèse de Pirenne.” Revue suisse
+                    d'histoire 20: 601-07</bibl>
+                <bibl> Ashtor, E. 1974. “The Venetian Supremacy in Levantine Trade: Monopoly or
+                    Pre-Colonialism?” Journal of European Economic History 3: 5-53.</bibl>
+                <bibl> Ashtor, E. 1976. “Observations on Venetian trade in the Levant in the XIVth
+                    Century.” Journal of European Economic History 5: 533-86.</bibl>
+                <bibl> Ashtor, E. 1976. A Social and Economic History of the Near East in the Middle
+                    Ages. Los Angeles: University of California Press.</bibl>
+                <bibl> Ashtor, E. 1977. “Aperçus sur les Radhanites.” Revue suisse d'histoire 27:
+                    245-75.</bibl>
+                <bibl> Ashtor, E. 1978. Studies on the Levantine Trade in the Middle Ages: Collected
+                    Studies Series 74. London: Variorum Reprints.</bibl>
+                <bibl> Ashtor, E. 1984. “The Wheat Supply of the Mamlūk Kingdom." Asian and African
+                    Studies: Journal of the Israel Oriental Society 18: 283-95.</bibl>
+                <bibl> Ashtor, E. 1986. East-West Trade in the Medieval Mediterranean. Edited by
+                    B.Z. Ḳedar. London: Variorum Reprints.</bibl>
+                <bibl> Astour, M.C. 1970. “Maʾḫadu, the Harbor of Ugarit.” JESHO 13: 113-27.</bibl>
+                <bibl> Astour, M.C. 1973. “Ugarit and the Aegean.” AOAT 22: 17-27.</bibl>
+                <bibl> Austin, M.M. 1970. Greece and Egypt in the Archaic Age. Cambridge: Cambridge
+                    Philological Society.</bibl>
+                <bibl> Austin, M.M., and P. Vidal-Naquet. 1981. Economic and Social History of
+                    Ancient Greece: An Introduction. Los Angeles: University of California
+                    Press.</bibl>
+                <bibl> Avienus, L.F. Ora Maritima. Edited by R. Berthelot, 1934. Paris: Librairie
+                    Ancienne Honore Champion</bibl>
+                <bibl> Avramea, A. 1985. “Maps of the Aegean.” In Maps and Mapmakers of the Aegean,
+                    edited by V. Sphyroeras, A. Avramea, and S. Asdrahas, 22-32. Athens:
+                    Olkos.
+                </bibl>
+        </listBibl>
+    </standOff>
+</TEI>
